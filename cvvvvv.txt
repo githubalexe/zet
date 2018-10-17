@@ -1,0 +1,666 @@
+.body
+{
+    margin: 0;
+    background-color: #FAFAFA;
+}
+.aFourBackground
+{
+    width: 21cm;
+    min-height: 29.7cm;
+    margin: auto;
+    background: #FBFBFB;
+    position: relative;
+}
+.cvContainer
+{
+    top:10px;
+    left:50px;
+    position:absolute;
+}
+.cvContainer .personName
+{
+    width:695px;
+    height: 202px;
+    top:60px;
+    left:0px;
+    background-color: chartreuse;
+    position:relative;
+}
+.cvContainer .personName .blueCircle
+{
+    width: 125px;
+    height: 110px;
+    top:90px;
+    left:0px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .orizontalLine
+{
+    width: 595px;
+    height: 2px;
+    top:70px;
+    left:100px;
+    background-color: #000;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #75CEC7;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+    position: absolute;
+}
+.cvContainer .personName .blueCircle .smallerCurve
+{
+    width: 30px;
+    height: 100px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+    position: absolute;
+}
+/*
+.cvContainer .personName .blueCircle .portraitPerson
+{
+    top:0px;
+    left:0px;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .portraitPerson .headPerson
+{
+    width: 35px;
+    height: 35px;
+    top:20px;
+    left:35px;
+    background: black;
+    border-radius: 50%;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .portraitPerson .headPerson .hairPerson
+{
+    top:0px;
+    left:0px;
+    position:absolute;
+}
+
+.cvContainer .personName .blueCircle .portraitPerson .headPerson .hairPerson .bottomCurveHair
+{
+    width: 40px;
+    height: 100px;
+    top: 10px;
+    left: -4px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 36%/19px 19px 0 0px;
+    transform: rotate(0deg);
+    z-index: 2;
+    position: absolute;
+}
+
+.cvContainer .personName .blueCircle .portraitPerson .headPerson .hairPerson .topCurveHair
+{
+    width: 40px;
+    height: 100px;
+    top: -3px;
+    left: -2px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 53%/78px 6px 0 0;
+    transform: rotate(-10deg);
+    z-index: 2;
+    position: absolute;
+}
+
+.cvContainer .personName .blueCircle .portraitPerson .headPerson .hairPerson .rightCurveHair
+{
+    width: 43px;
+    height: 100px;
+    top: 3px;
+    left: 02px;
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 53%/78px 6px 0 0;
+    transform: rotate(-10deg);
+    z-index: 2;
+    position: absolute;
+}
+
+.cvContainer .personName .blueCircle .portraitPerson .facePerson
+{
+    width: 31px;
+    height: 31px;
+    top:2px;
+    left:2px;
+    background: #FBFBFC;
+    border-radius: 50%;
+    position:absolute;
+}
+.cvContainer .personName .blueCircle .portraitPerson .facePerson .nosePerson
+{
+    width: 3px;
+    height: 2px;
+    top:20px;
+    left:13px;
+    background: black;
+    border-radius: 50%;
+    position:absolute;
+}
+*/
+/*Person Name Text################################################*/
+.cvContainer .personName .personNameText
+{
+    width: 215px;
+    height: 110px;
+    top:90px;
+    left:130px;
+    background-color: aquamarine;
+    position:absolute;
+}
+
+.cvContainer .personName .buildingsPicture
+{
+    width: 345px;
+    height: 200px;
+    top:0px;
+    right:0px;
+    float: left;
+    background-color: aquamarine;
+    position:absolute;
+}
+/*Empty Space Container################################################*/
+.cvContainer .emptySpaceContainer
+{
+    width:695px;
+    height: 100px;
+    top:65px;
+    left:0px;
+    background-color: rgb(30, 207, 198);
+    position:relative;
+}
+/*Personal Informations Container################################################*/
+.cvContainer .personalInformationsContainer
+{
+    width:695px;
+    height: 200px;
+    top:70px;
+    left:0px;
+    background-color: rgb(207, 30, 104);
+    position:relative;
+}
+.cvContainer .personalInformationsContainer .blueCircle
+{
+    width: 125px;
+    height: 110px;
+    top:0px;
+    left:0px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .personalInformationsTitle
+{
+    width: 450px;
+    height: 34px;
+    top:0px;
+    left:127px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .personalInformationsTitle .testClass
+{
+    top:-10px;
+    left: 10px;
+    position: absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .orizontalLine
+{
+    width: 480px;
+    height: 2px;
+    top:35px;
+    left:100px;
+    background-color: #000;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .orizontalLine .orizontalLinePoint
+{  
+    width: 15px;
+    height: 15px;
+    left: 470px;
+    bottom: -7px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #EA7481;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+    position: absolute;
+}
+.cvContainer .personalInformationsContainer .blueCircle .smallerCurve
+{
+    width: 30px;
+    height: 100px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+    position: absolute;
+}
+.cvContainer .personalInformationsContainer .personalInformationsText
+{
+    width: 453px;
+    height: 70px;
+    top:40px;
+    left:127px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .contactContainer
+{  
+    width: 500px;
+    height: 88px;
+    bottom:0px;
+    left:80px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .contactContainer .countryInfo
+{
+    width: 240px;
+    height: 20px;
+    top:30px;
+    left:0px;
+    background-color: rgb(255, 127, 244);
+    position:absolute;
+}
+
+.cvContainer .personalInformationsContainer .contactContainer .adressInfo
+{
+    width: 240px;
+    height: 20px;
+    bottom:0px;
+    left:0px;
+    background-color: rgb(255, 127, 244);
+    position:absolute;
+}
+
+.cvContainer .personalInformationsContainer .contactContainer .telephoneInfo
+{
+    width: 240px;
+    height: 20px;
+    top:30px;
+    right:0px;
+    background-color: rgb(255, 127, 244);
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .contactContainer .emailInfo
+{
+    width: 240px;
+    height: 20px;
+    bottom:0px;
+    right:0px;
+    background-color: rgb(255, 127, 244);
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .buildingPicture
+{
+    width: 113px;
+    height: 160px;
+    bottom:0px;
+    right:0px;
+    background-color:aquamarine;
+    position:absolute;
+}
+/*Educations Container###############################################*/
+.cvContainer .educationsContainer
+{
+    width:695px;
+    height: 200px;
+    top:75px;
+    left:0px;
+    background-color: rgb(113, 30, 207);
+    position:relative;
+}
+.cvContainer .educationsContainer .blueCircle
+{
+    width: 125px;
+    height: 110px;
+    top:0px;
+    left:0px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .educationsContainer .blueCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .educationsContainer .blueCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #FA6D27;
+    position:absolute;
+}
+.cvContainer .educationsContainer .blueCircle .orizontalLine
+{
+    width: 480px;
+    height: 2px;
+    top:35px;
+    left:100px;
+    background-color: #000;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .educationsContainer .blueCircle .orizontalLine .orizontalLinePoint
+{  
+    width: 15px;
+    height: 15px;
+    left: 470px;
+    bottom: -7px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+}
+.cvContainer .educationsContainer .blueCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+    position: absolute;
+}
+.cvContainer .educationsContainer .blueCircle .smallerCurve
+{
+    width: 30px;
+    height: 100px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+    position: absolute;
+}
+.cvContainer .educationsContainer .educationInfo
+{
+    width: 453px;
+    height: 160px;
+    top:40px;
+    left:127px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .educationsContainer .paperPicture
+{
+    width: 113px;
+    height: 160px;
+    bottom:0px;
+    right:0px;
+    background-color:aquamarine;
+    position:absolute;
+}
+/*work Experience Container #################################################*/
+.cvContainer .workExperienceContainer
+{
+    width:695px;
+    height: 200px;
+    top:80px;
+    left:0px;
+    background-color: rgb(30, 113, 207);
+    position:relative;
+}
+.cvContainer .workExperienceContainer .blueCircle
+{
+    width: 125px;
+    height: 110px;
+    top:0px;
+    left:0px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #AAD374;
+    position:absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .orizontalLine
+{
+    width: 480px;
+    height: 2px;
+    top:35px;
+    left:100px;
+    background-color: #000;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .orizontalLine .orizontalLinePoint
+{  
+    width: 15px;
+    height: 15px;
+    left: 470px;
+    bottom: -7px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+    position: absolute;
+}
+.cvContainer .workExperienceContainer .blueCircle .smallerCurve
+{
+    width: 30px;
+    height: 100px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+    position: absolute;
+}
+.cvContainer .workExperienceContainer  .workInfo
+{
+    width: 453px;
+    height: 160px;
+    top:40px;
+    left:127px;
+    background-color: aquamarine;
+    position:absolute;
+}
+.cvContainer .workExperienceContainer .whellPicture
+{
+    width: 113px;
+    height: 160px;
+    bottom:0px;
+    right:0px;
+    background-color:aquamarine;
+    position:absolute;
+}
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/app.css">
+</head>
+    <body>
+        <div class="aFourBackground">
+            <div class="cvContainer">
+                <div class="personName">
+                    <div class="blueCircle">
+                        <div class="innerCircle"></div>
+                        <div class="orizontalLine"></div>
+                        <div class="circleBorder"></div>
+                        <div class="higherCurve"></div>
+                        <div class="smallerCurve"></div>
+                        <div class="portraitPerson">
+                            <div class="headPerson">
+                                <div class="hairPerson">
+                                    <div class="bottomCurveHair"></div>
+                                    <div class="topCurveHair"></div>
+                                    <div class="rightCurveHair"></div>
+                                </div>
+                                <div class="facePerson">
+                                    <div class="nosePerson"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="personNameText"></div>
+                    <div class="functionPersonText"></div>
+                    <div class="buildingsPicture"></div>
+                </div>
+                <div class="emptySpaceContainer">
+
+                </div>
+                <div class="personalInformationsContainer">
+                    <div class="blueCircle">
+                        <div class="innerCircle"></div>
+                        <div class="orizontalLine">
+                            <div class="orizontalLinePoint"></div>
+                        </div>
+                        <div class="circleBorder"></div>
+                        <div class="higherCurve"></div>
+                        <div class="smallerCurve"></div>
+                    </div>
+                    <div class="personalInformationsTitle">
+                        <div class="testClass">
+                            <h3>Personal Informations</h3>
+                        </div>
+                    </div>
+                    <div class="personalInformationsText"></div>
+                    <div class="contactContainer">
+                        <div class="countryInfo"></div>
+                        <div class="adressInfo"></div>
+                        <div class="telephoneInfo"></div>
+                        <div class="emailInfo"></div>
+                    </div>
+                    <div class="buildingPicture"></div>
+                </div>
+                <div class="educationsContainer">
+                    <div class="blueCircle">
+                        <div class="innerCircle"></div>
+                        <div class="orizontalLine">
+                            <div class="orizontalLinePoint"></div>
+                        </div>
+                        <div class="circleBorder"></div>
+                        <div class="higherCurve"></div>
+                        <div class="smallerCurve"></div>
+                    </div>
+                    <div class="educationInfo"></div>
+                    <div class="paperPicture"></div>
+                </div>
+                <div class="workExperienceContainer">
+                    <div class="blueCircle">
+                        <div class="innerCircle"></div>
+                        <div class="orizontalLine">
+                            <div class="orizontalLinePoint"></div>
+                        </div>
+                        <div class="circleBorder"></div>
+                        <div class="higherCurve"></div>
+                        <div class="smallerCurve"></div>
+                    </div>
+                    <div class="workInfo"></div>
+                    <div class="whellPicture"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
