@@ -1,0 +1,297 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px; /*pentru marimea textului */
+    line-height: 1.5; /*pentru distanta dintre paragrafe si altele */
+
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4
+}
+
+/*GLOBAL*/
+.container /* este clasa ,cand ai clasa folosesti punct,iar cand ai id folosesti #*/
+{
+    width: 80%;
+    margin: auto;
+    overflow: hidden; /* in cazul in care iesi in afara o poza sau ceva din afara marimi clasei ,continutul va fi ascuns */
+}
+
+.button_1
+{
+    height: 38px;
+    background-color: #e8491d;
+    margin: 0;
+    border: 0;
+    color:white;
+}
+
+/*HEADER*/
+header
+{
+    background: #35424a;
+    color: white;
+    padding-top: 30px;/* distanta dintre linia de sus de tot si text*/
+    min-height: 70px; /*marimea panelului colorat*/
+    border-bottom: #e8491d 3px solid;
+    
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    
+}
+
+header ul
+{
+    margin: 0;
+    padding: 0;
+}
+
+header li
+{
+    float: left;
+    display: inline;
+    padding : 10px 0px 0px 20px;/*prima- distanta dintre titlu si lista, doua-distanta dintre elementele din lista, treia- distanta dintre lista si marginea de jos, patra-distanta dintre partea din stanga si ele*/
+}
+
+header #branding
+{
+    float: left;
+}
+
+header #branding h1
+{
+    margin: 0;
+}
+
+header nav
+{
+    float :right;
+}
+
+header .culoaretext, header .current a
+{
+    color:#e8491d;
+}
+
+header a:hover/*pentru a se schimba culoarea la butoane atunci cand este click pe el*/
+{
+    color: chartreuse;
+}
+
+/*Imaginea pe care se pune text*/
+
+#showcase
+{
+    width: 100%;
+    height: 600px;
+    background:url('../IMG/coperta.jpg ') no-repeat 0 ;
+    background-size: 100% 100%;
+    
+    text-align: center;
+
+}
+
+#showcase h1
+{
+    margin-top: 100px;
+    font-size: 55px;
+    color:#e8491d;
+
+}
+
+#showcase p
+{
+    font-size: 50px;
+    margin-top: 80px;
+    color:#e8491d;
+}
+
+#linia_de_jos
+{
+    padding:5px;
+    background: #35424a;
+}
+
+#linia_de_jos h1
+{
+    font-size: 25px;
+    color:white;
+    float: left;
+}
+
+#linia_de_jos form
+{
+    margin-top: 25px;
+    float: right;
+}
+
+#linia_de_jos input[type="email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    
+}
+
+
+/*Boxes*/
+#boxes
+{
+    margin-top: 10px;
+    background-size: 10% 10%;
+
+}
+
+#boxes .box
+{
+
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    
+}
+
+#boxes img /* Pentru a schimba marime pozelor*/
+{
+    width: 200px;
+    height: 200px;
+}
+/*ABOUT*/
+#sidebar
+{
+    float: right;
+    width: 30%;
+    color: white;
+    margin-top: 10px;
+    background-color: #35424a;
+    padding: 30px;
+}
+
+#articolu1
+{
+    float: left;
+    width: 60%;
+    margin-top: 10px;
+    
+    
+}
+
+footer
+{
+   
+    margin-top: 10px;
+    color: black;
+    background-color:#e8491d;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport " content="width=device-width"> <!--Aici ajusteaza marimea in functie de dispozitiv -->
+    <meta name="author" content="Alex Badescu">
+
+    <title>Primul meu proiect</title>
+
+    <link rel="stylesheet"  href="CSS/app.css"/>
+
+    </head>
+
+    <body>
+            <header>
+
+                <div class="container">
+
+                    <div id="branding">
+                        <h1><span class="culoaretext">Lavinia</span> Salon</h1>
+                    </div>
+
+                    <nav>
+                        <ul>
+                            <li class="current"><a href="index.html">Home</a></li>
+                            <li ><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                        </ul>
+                    </nav>
+
+            </header> 
+
+                    <section id="showcase"> <!--Pentru fotografie -->
+                        <div class="container">
+                            <h1>Cel mai bun salon al tuturor timpurilor</h1>
+                            <p>Daca vrei sa ai o manechuira frumoasa si de durata vino la Lavinia Salon, nu o sa regreti nicio secunda...</p>
+                        </div>
+                    </section>
+
+                    <section id="linia_de_jos">
+                        <div class="container">
+                            <h1>Apreciaza pagina noastra</h1>
+                            <form action=""><!--Pentru a ii da functionalitate pe partea de javascript -->
+                                <input type="email" placeholder="Enter Email..."> <!-- input folosit pentru textbox,palceholder pentru a intoduce invizibil text in textbox -->
+
+                                <script>
+                                
+                                 function cosmin()
+                                 {
+                                    
+                                 }
+
+                                </script>
+                                <button type="submit" class="button_1">Subscribe</button>
+            
+                            </form>
+                        </div>
+                    </section>
+
+                    <section id="boxes">
+                        <div class="container">
+
+                            <div class="box">
+                                <img src="./IMG/mana.png">
+                                <h3>Manichiura</h3>
+                                <p>Lavinia Salon va ofera o manechuira de neuitat te va face sa te simti bine in pielea ta.</p>
+                            </div>
+
+                            <div class="box">
+                                    <img src="./IMG/pedichiura.png">
+                                    <h3>Petichiura</h3>
+                                    <p>Lavinia Salon va ofera o petichuira de vrei sa stai mereu cu picioarele pe afara, chiar si iarna.</p>
+                            </div>
+
+                            <div class="box">
+                                    <img src="./IMG/relax.png" >
+                                    <h3>Relaxare</h3>
+                                    <p>Lavinia Salon te face sa te simti mai bine ca acasa, o experienta de neuitat.</p>
+                           </div>
+                                
+
+                        </div>
+                    </section>
+
+                </div>
+
+               
+
+            <footer>
+                <p>Lavinia Salon, Copyright &copy;  2018</p>
+            </footer>
+
+    </body>
+
+</html>
