@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="./CSS/app.css">
+    <title>CVDocument</title>
+</head>
+    <body>
+        <div class="aFourBackground">
+            <div class="cvContainer">
+                <div class="personNameContainer">
+                    <div class="iconContainer">
+                        <div class="blueCircle">
+                            <div class="innerCircle"></div>
+                            <div class="circleBorder"></div>
+                            <div class="higherCurve"></div>
+                            <div class="smallerCurve"></div>
+                        </div>
+                    </div>
+                    <div class="nameFunctionContainer">
+                        <div class="personName"><h3>Badescu Stefan Alexandru</h3></div>
+                        <div class="functionContainer"><h3>Developer</h3></div>
+                    </div>
+                    <div class="pictureContainer">
+                        Picture
+                    </div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="secondContainer">
+
+                </div>
+                <div class="personalInformationsContainer">
+                    <div class="iconContainer">
+                        <div class="redCircle">
+                            <div class="innerCircle"></div>
+                            <div class="circleBorder"></div>
+                            <div class="higherCurve"></div>
+                            <div class="smallerCurve"></div>
+                        </div>
+                    </div>
+                    <div class="personalInformationsText">
+                        <div class="personalInformationsTitle"><h3>Personal Informations</h3></div>
+                        <div class="personalInformationsDetails"><p>Personal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal Informations</p></div>
+                    </div>
+                </div>
+                <div class="educationsContainer">
+
+                </div>
+                <div class="workExperienceContainer">
+
+                </div>
+                <div class="lastPictureContainer">
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+.body
+{
+    margin: 0;
+    background-color: #FAFAFA;
+}
+.aFourBackground
+{
+    width: 21cm;
+    margin: auto;
+    background: #F3F3F3;
+    
+}
+.cvContainer
+{
+    top:10px;
+    left:40px;
+    overflow: hidden;
+    position: relative;
+}
+.cvContainer .personNameContainer
+{
+    width:90%;
+
+    background-color: chartreuse;
+
+}
+.cvContainer .personNameContainer .iconContainer
+{
+    width: 20%;
+    background-color: #75CEC7;
+    float: left;
+    
+}
+
+.cvContainer .personNameContainer .iconContainer .blueCircle
+{
+    width: 125px;
+    height: 110px;
+
+
+    background-color: aquamarine;
+    float: left;
+}
+.cvContainer .personNameContainer .iconContainer .blueCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .personNameContainer .iconContainer .blueCircle .orizontalLine
+{
+    width: 595px;
+    height: 2px;
+    top:70px;
+    left:100px;
+    background-color: #000;
+    z-index: 2;
+    position:absolute;
+}
+.cvContainer .personNameContainer .iconContainer .blueCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #75CEC7;
+    position:absolute;
+}
+.cvContainer .personNameContainer .iconContainer .blueCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+    position: absolute;
+}
+.cvContainer .personNameContainer .iconContainer .blueCircle .smallerCurve
+{
+    width: 30px;
+    height: 100px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+    position: absolute;
+}
+
+.cvContainer .personNameContainer .nameFunctionContainer
+{
+    width: 20%;
+    background-color: burlywood;
+    float: left;
+}
+.cvContainer .personNameContainer .nameFunctionContainer .personName h3
+{
+    margin: 0;
+}
+.cvContainer .personNameContainer .nameFunctionContainer .functionContainer h3
+{
+    margin: 0;
+}
+.cvContainer .personNameContainer .pictureContainer
+{
+    width: 40%;  
+    background-color: brown;
+    float: left;
+}
+.cvContainer .secondContainer
+{
+    width:90%;
+    height: 100px;
+    background-color: rgb(30, 207, 198);
+}
+.cvContainer .personalInformationsContainer
+{
+    width:90%;
+    height: 150px;
+    background-color: rgb(207, 30, 104);
+}
+
+.cvContainer .personalInformationsContainer .iconContainer
+{
+    width: 20%;
+    background-color: #75CEC7;
+    float: left;
+}
+.cvContainer .personalInformationsContainer .iconContainer .redCircle
+{
+    width: 125px;
+    height: 110px;
+    background-color: aquamarine;
+  
+}
+
+.cvContainer .personalInformationsContainer .iconContainer.redCircle .circleBorder
+{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 2px  black;
+    position:absolute;
+}
+.cvContainer .personalInformationsContainer .iconContainer .redCircle .orizontalLine .orizontalLinePoint
+{  
+    width: 15px;
+    height: 15px;
+    left: 470px;
+    bottom: -7px;
+    border-radius: 50%;
+    background-color: #000;
+    position: absolute;
+}
+
+.cvContainer .personalInformationsContainer .iconContainer .redCircle .innerCircle
+{
+    width: 100px;
+    height: 100px;
+    top:5px;
+    left:9px;
+    border-radius: 50%;
+    background-color: #EA7481;
+
+}
+.cvContainer .personalInformationsContainer .iconContainer .redCircle .higherCurve
+{
+    width: 100px;
+    height: 100px;  
+    top: 2px;  
+    left: 4px;  
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent;
+    border-radius: 94%/100px 100px 0 0;
+    transform: rotate(-52deg);
+
+}
+.cvContainer .personalInformationsContainer .iconContainer .redCircle .smallerCurve
+{
+    width: 30px;
+    height: 900px;  
+    top: 0px;  
+    left: 31px; 
+    border: solid 2px #000;
+    border-color: #000 transparent transparent transparent; 
+    border-radius: 255%/43px 50px 0 0px;  
+    transform: rotate(108deg); 
+
+}
+.cvContainer .personalInformationsContainer .personalInformationsText
+{
+    width: 40%;
+    background-color: coral;
+    float: left;
+}
+.cvContainer .personalInformationsContainer .personalInformationsText .personalInformationsTitle h3
+{
+    margin: 0;
+}
+
+
+/
+/
+/
+/
+.container{
+    width: 600px;
+    border: 1px solid black;
+}
+
+.imageContainer {
+    float:left;
+    width: 24%;
+    border:1px solid black;
+}
+.image {
+    max-width: 100px;
+    max-height: 100px;  
+    min-width: 100px;
+    min-height: 100px;  
+    background-color: aqua;
+}
+
+.description {
+    float:left;
+    background-color: bisque;
+    width: 75%;
+}
+
+.verticalLine {
+    float:left;
+    min-width: 20%;
+    background-color: aqua;
+}
+
+
+.details {
+    float:left;
+    width: 80%;    
+    background-color: blueviolet;
+}
+
+
+.detailsItem {
+    background-color: aqua;
+    width: 50%;
+    float:left;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.detailsItemIcon{
+    width: 20%;
+    float:left;
+    background-color: brown;
+}
+
+.detailsItemDescription{
+    width: 60%;
+    float:left;
+    background-color: greenyellow;
+}
+
+
+<html>
+
+<head>
+    <link rel="stylesheet" href="./site.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="imageContainer">
+            <div class="image">
+
+            </div>
+        </div>
+        <div class="description">
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+            asdas asd asd ad
+
+        </div>
+
+        <div style="clear:both"></div>
+
+        <div class="verticalLine">
+            asdasd
+        </div>
+        <div class="details">
+            <div class="detailsItem">
+                <div class="detailsItemIcon">
+                    asdasd
+                </div>
+                <div class="detailsItemDescription">
+                    asdasd asd asd asd asd a
+                </div>
+            </div>
+            <div class="detailsItem">
+                <div class="detailsItemIcon">
+                    asdasd
+                </div>
+                <div class="detailsItemDescription">
+                    asdasd asd asd asd asd a
+                </div>
+            </div>
+            <div class="detailsItem">
+                <div class="detailsItemIcon">
+                    asdasd
+                </div>
+                <div class="detailsItemDescription">
+                    asdasd asd asd asd asd a
+                </div>
+            </div>
+            <div class="detailsItem">
+                <div class="detailsItemIcon">
+                    asdasd
+                </div>
+                <div class="detailsItemDescription">
+                    asdasd asd asd asd asd a
+                </div>
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    </div>
+    </div>
+</body>
+
+</html>
