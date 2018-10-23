@@ -1,58 +1,384 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./CSS/app.css">
-    <title>CVDocument</title>
+    <title>CV-Alex Badescu</title>
 </head>
     <body>
         <div class="aFourBackground">
             <div class="cvContainer">
+                <div class="verticalLine"></div>
                 <div class="personNameContainer">
+                    <div class="cloudOne">
+                            <div class="circleLeft"></div>
+                            <div class="circleRight"></div>
+                            <div class="middleCircle"></div>
+                            <div class="mainCloud"></div>
+                        </div>
+                        <div class="cloudTwo">
+                            <div class="circleLeft"></div>
+                            <div class="circleRight"></div>
+                            <div class="middleCircle"></div>
+                            <div class="mainCloud"></div>
+                        </div>
+                        <div class="cloudThree">
+                            <div class="circleLeft"></div>
+                            <div class="circleRight"></div>
+                            <div class="middleCircle"></div>
+                            <div class="mainCloud"></div>
+                        </div>
                     <div class="iconContainer">
-                        <div class="blueCircle">
+                        <div class="coloredCircle">
                             <div class="innerCircle"></div>
                             <div class="circleBorder"></div>
-                            <div class="higherCurve"></div>
-                            <div class="smallerCurve"></div>
+                            <div class="portretContainer">
+                                <div class="earsContainer">
+                                    <div class="earLeft"></div>
+                                    <div class="earRight"></div>
+                                </div>
+                                <div class="faceContainer"></div>
+                                <div class="shirtContainer">
+                                    <div class="triangle">
+                                        <div class="sqare"></div>
+                                        <div class="tie"></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="nameFunctionContainer">
-                        <div class="personName"><h3>Badescu Stefan Alexandru</h3></div>
-                        <div class="functionContainer"><h3>Developer</h3></div>
+                    <div class="nameAndOcupationPerson">
+                        <div class="namePerson"><h3>Alex Badescu</h3></div>
+                        <div class="ocupationPerson"><h4>Developer</h4></div>
                     </div>
                     <div class="pictureContainer">
-                        Picture
+                        
+                        <div class="cityPicture">
+                            <div class="treeContainer">
+                                <div class="pointOne"></div>
+                                <div class="pointTwo"></div>
+                                <div class="pointThree"></div>  
+                                <div class="leftVerticalLine"></div>
+                                <div class="middleVerticalLine"></div>
+                                <div class="rightVerticalLine"></div>
+                                <div class="horizontalLine"></div>
+                            </div>
+                            <div class="firstBuilding">
+                                <div class="buildingContainer">
+                                    <div class="mainSqare">
+                                        <div class="innerWindowsOne"></div>
+                                        <div class="innerWindowsTwo"></div>
+                                        <div class="innerWindowsThree"></div>
+                                        <div class="innerWindowsFour"></div>
+                                        <div class="dor">
+                                            <div class="lock"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="higherBuilding">
+                                <div class="buildingContainer">
+                                    <div class="roofContainer">
+                                        <div class="triangle"></div>
+                                        <div class="sqare"></div>
+                                        <div class="topLine"></div>
+                                        <div class="rotateLine"></div>
+                                        <div class="bottomLine"></div>
+                                        <div class="leftLine"></div>
+                                        <div class="middleLine"></div>
+                                        <div class="rightLine"></div>
+                                    </div>
+                                    <div class="leftPart"></div>
+                                    <div class="rightPart"></div>
+                                    <div class="mainPart">
+                                        <div class="leftLine"></div>
+                                        <div class="middleLine"></div>
+                                        <div class="rightLine"></div>
+                                        <div class="lastLine"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="twoTree">
+                                <div class="firstTree">
+                                    <div class="circle"></div>
+                                    <div class="line"></div>
+                                </div>
+                                <div class="secondTree">
+                                    <div class="circle"></div>
+                                    <div class="line"></div>
+                                </div>
+                            </div>
+                            <div class="lastBuilding">
+                                <div class="mainBuilding">
+                                    <div class="innerWindowsOne"></div>
+                                    <div class="innerWindowsTwo"></div>
+                                    <div class="innerWindowsThree"></div>
+                                    <div class="innerWindowsFour"></div>
+                                    <div class="lastLine"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="horizontalLine"></div>
+                    <div style="clear:both"></div>
+                </div>
+                <div class="cloudsContainer">
+                    <div class="line"></div>
+                    <div class="cloudOne">
+                        <div class="circleLeft"></div>
+                        <div class="circleRight"></div>
+                        <div class="middleCircle"></div>
+                        <div class="mainCloud"></div>
+                    </div>
+                    <div class="cloudTwo">
+                        <div class="circleLeft"></div>
+                        <div class="circleRight"></div>
+                        <div class="middleCircle"></div>
+                        <div class="mainCloud"></div>
+                    </div>
+                    <div class="cloudThree">
+                        <div class="circleLeft"></div>
+                        <div class="circleRight"></div>
+                        <div class="middleCircle"></div>
+                        <div class="mainCloud"></div>
                     </div>
                     <div style="clear:both"></div>
                 </div>
-                <div class="secondContainer">
-
-                </div>
                 <div class="personalInformationsContainer">
                     <div class="iconContainer">
-                        <div class="redCircle">
+                        <div class="coloredCircle">
                             <div class="innerCircle"></div>
-                            <div class="circleBorder"></div>
-                            <div class="higherCurve"></div>
-                            <div class="smallerCurve"></div>
+                            <div class="informationIcon">
+                                <div class="innerSquare"></div>
+                                <div class="blackLines">
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                    <div class="lineOne"></div>
+                                </div>
+                                <div class="blackLinesTwo">
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                    <div class="lineTwo"></div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="personalInformationsText">
+                    <div class="personalInformations">
                         <div class="personalInformationsTitle"><h3>Personal Informations</h3></div>
-                        <div class="personalInformationsDetails"><p>Personal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal InformationsPersonal Informations</p></div>
+                        <div class="horizontalLine">
+                            <div class="lineContainer">
+                                <div class="point"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="personalInformationsText">
+                            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum </p>
+                        </div>
                     </div>
+                    <div class="buildingContainer">
+                        <div class="pictureContainer">
+                            <div class="line"></div>
+                            <div class="circles">
+                                <div class="circleOne"></div>
+                                <div class="circleTwo"></div>
+                                <div class="circleThree"></div>
+                            </div>
+                            <div class="building">
+                                <div class="mainBulding">
+                                    <div class="innerWindowsOne"></div>
+                                    <div class="innerWindowsTwo"></div>
+                                    <div class="innerWindowsThree"></div>
+                                    <div class="innerWindowsFour"></div>
+                                    <div class="innerWindowsFive"></div>
+                                    <div class="innerWindowsSix"></div>
+                                    <div class="innerWindowsSeven"></div>
+                                    <div class="innerWindowsEight"></div>
+                                    <div class="lastLine"></div>
+                                </div>
+                            </div>
+                            <div class="tree">
+                                <div class="circleOne"></div>
+                                <div class="circleTwo"></div>
+                                <div class="circleThree"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contactContainer">
+                        <div class="contactTitle"><h3>Contacts</h3></div>
+                        <ul class="detailsContainer">
+                            <li class="detailsCountry">
+                                <div class="detailsItemIcon">
+                                    <div class="icon"></div>
+                                    <div class="point"></div>
+                                </div>
+                                <div class="detailsItemDescription">
+                                   <h3>Romania</h3>  
+                                </div>
+                            </li>
+                            <li class="detailsLocation">
+                                <div class="detailsItemIcon">
+                                    <div class="icon"></div>
+                                    <div class="border"></div>
+                                    <div class="point"></div>
+                                </div>
+                                <div class="detailsItemDescription">
+                                    <h3>Bucharest, Turnul Magurele</h3>
+                                </div>
+                            </li>
+                            <li class="detailsTelephone">
+                                <div class="detailsItemIcon">
+                                    <div class="icon">
+                                        <div class="firstBorder"></div>
+                                        <div class="secondBorder"></div>
+                                        <div class="middleButton"></div>
+                                    </div>
+                                </div>
+                                <div class="detailsItemDescription">
+                                    <h3>0748144848</h3>
+                                </div>
+                            </li>
+                            <li class="detailsEmail">
+                                <div class="detailsItemIcon">
+                                    <div class="border"></div>
+                                    <div class="square">
+                                        <div class="lineOne"></div>
+                                        <div class="lineTwo"></div>
+                                    </div>
+                                </div>
+                                <div class="detailsItemDescription">
+                                    <h3>alexnadrubadescu@simpology.ro </h3>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                <div style="clear:both"></div>
                 </div>
-                <div class="educationsContainer">
-
+                <div class="educationContainer">    
+                    <div class="iconContainer">
+                        <div class="coloredCircle">
+                            <div class="innerCircle"></div>
+                            <div class="circleBorder"></div>
+                            <div class="bookContainer">
+                                <div class="cover">
+                                    <div class="baseCover"></div>
+                                    <div class="line"></div>
+                                    <div class="mainCover">
+                                        <div class="innerCover">
+                                            <div class="title"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pages"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="educationInformations">
+                        <div class="educationTitle"><h3>Education</h3></div>
+                        <div class="horizontalLine">
+                            <div class="lineContainer">
+                                <div class="point"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="educationText"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p></div>
+                        <div class="educationInfo">
+                            <ul class="educationList">
+                                <li class="universityContainer">
+                                    <div class="timeAndFormEducation">
+                                        <div class="timeInterval"><h4>01/10/2014–2018</h4></div>
+                                        <div class="formOfEducation"><h4>University of Craiova</h4></div>
+                                    </div>
+                                    <div class="formOfEducationInfo">
+                                        <p>
+                                            The Faculty of Automatics, Computers and Electronics from Craiova, Specialization:
+                                            Automation and Applied Informatics.
+                                        </p>
+                                    </div>
+                                </li>
+                                <li class="highSchoolContainer">
+                                    <div class="timeAndFormEducation">
+                                        <div class="timeInterval"><h4>2010–2014</h4></div>
+                                        <div class="formOfEducation"><h4>High School</h4></div>
+                                    </div>
+                                    <div class="formOfEducationInfo">
+                                        <p>
+                                         Technological High School Dimitrie Filisanu
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="paperPicture">
+                        <div class="pencilCotainer">
+                            <div class="pencil">
+                                <div class="top"></div>
+                                <div class="topBorder"></div>
+                            </div>
+                            <div class="bottom">
+                                <div class="nib"></div>
+                            </div>
+                        </div>
+                    </div>
+                <div style="clear:both"></div>
                 </div>
                 <div class="workExperienceContainer">
-
+                    <div class="iconContainer">
+                        <div class="coloredCircle">
+                            <div class="innerCircle"></div>
+                            <div class="circleBorder"></div>
+                            <div class="briefcaseContainer">
+                                <div class="handle">
+                                    <div class="innerHandle"></div>
+                                </div>
+                                <div class="mainbriefCase"></div>
+                                <div class="line"></div>
+                                <div class="closureLeft"></div>
+                                <div class="closureRight"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="workExperienceInfo">
+                        <div class="workTitle"><h3>Work Experience</h3></div>
+                        <div class="horizontalLine">
+                            <div class="lineContainer">
+                                <div class="point"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class=""></div>
+                        <ul class="workList">
+                            <li class="simpologyContainer">
+                                <div class="timeAndFormWork">
+                                    <div class="timeInterval"><h4>08/10/2018–Present</h4></div>
+                                    <div class="formOfWork"><h4>Simpology</h4></div>
+                                </div>
+                                <div class="formOfWorkInfo">
+                                    <p>
+                                        Full Stack .NET Developer
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="whellPicture">
+                        
+                    </div>
+                    <div style="clear:both"></div>
                 </div>
-                <div class="lastPictureContainer">
-
-                </div>
+                <div class="lastPicture"></div>
             </div>
         </div>
     </body>
@@ -69,379 +395,2146 @@
     width: 21cm;
     margin: auto;
     background: #F3F3F3;
-    
 }
 .cvContainer
 {
-    top:10px;
-    left:40px;
     overflow: hidden;
+    padding: 50px;
     position: relative;
 }
-.cvContainer .personNameContainer
+.cvContainer .verticalLine
 {
-    width:90%;
-
-    background-color: chartreuse;
-
-}
-.cvContainer .personNameContainer .iconContainer
-{
-    width: 20%;
-    background-color: #75CEC7;
-    float: left;
-    
-}
-
-.cvContainer .personNameContainer .iconContainer .blueCircle
-{
-    width: 125px;
-    height: 110px;
-
-
-    background-color: aquamarine;
-    float: left;
-}
-.cvContainer .personNameContainer .iconContainer .blueCircle .circleBorder
-{
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: solid 2px  black;
-    position:absolute;
-}
-.cvContainer .personNameContainer .iconContainer .blueCircle .orizontalLine
-{
-    width: 595px;
-    height: 2px;
-    top:70px;
-    left:100px;
+    width: 0.2%;
+    top:0%;
+    bottom: 0%;
+    left: 15%;
     background-color: #000;
     z-index: 2;
+    margin-top:20%;
+    margin-bottom: 35%;
     position:absolute;
-}
-.cvContainer .personNameContainer .iconContainer .blueCircle .innerCircle
-{
-    width: 100px;
-    height: 100px;
-    top:5px;
-    left:9px;
-    border-radius: 50%;
-    background-color: #75CEC7;
-    position:absolute;
-}
-.cvContainer .personNameContainer .iconContainer .blueCircle .higherCurve
-{
-    width: 100px;
-    height: 100px;  
-    top: 2px;  
-    left: 4px;  
-    border: solid 2px #000;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 94%/100px 100px 0 0;
-    transform: rotate(-52deg);
-    position: absolute;
-}
-.cvContainer .personNameContainer .iconContainer .blueCircle .smallerCurve
-{
-    width: 30px;
-    height: 100px;  
-    top: 0px;  
-    left: 31px; 
-    border: solid 2px #000;
-    border-color: #000 transparent transparent transparent; 
-    border-radius: 255%/43px 50px 0 0px;  
-    transform: rotate(108deg); 
-    position: absolute;
 }
 
-.cvContainer .personNameContainer .nameFunctionContainer
+.personNameContainer
+{
+    width: 100%;
+    position: relative;
+
+    position: relative;
+}
+.personNameContainer .cloudOne
+{
+    top:0px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 16s linear infinite;
+	-moz-animation: moveclouds 16s linear infinite;
+	-o-animation: moveclouds 16s linear infinite;
+}
+.personNameContainer .cloudOne .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudOne .circleRight
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudOne .middleCircle
+{
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 25px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudOne .mainCloud
+{
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+.personNameContainer  .cloudTwo
+{
+    top:50px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 9s linear infinite;
+	-moz-animation: moveclouds 9s linear infinite;
+	-o-animation: moveclouds 9s linear infinite;
+}
+.personNameContainer .cloudTwo .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudTwo .circleRight
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudTwo .middleCircle
+{
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 35px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+    
+}
+.personNameContainer .cloudTwo .mainCloud
+{
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+.personNameContainer .cloudThree
+{
+    top:30px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 20s linear infinite;
+	-moz-animation: moveclouds 20s linear infinite;
+	-o-animation: moveclouds 20s linear infinite;
+}
+.personNameContainer .cloudThree .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudThree .circleRight
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudThree .middleCircle
+{
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 25px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .cloudThree .mainCloud
+{
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+.personNameContainer .iconContainer
 {
     width: 20%;
-    background-color: burlywood;
+    height: 100px;
+    z-index: 10;
+    margin-top: 70px;
     float: left;
 }
-.cvContainer .personNameContainer .nameFunctionContainer .personName h3
+/*Icon Container ########################################################################################################################*/
+.personNameContainer .iconContainer .coloredCircle
+{
+    width:60%;
+    height: 100px;
+    height:70%;
+    left: 7%;
+    z-index: 5;
+    position:relative;
+}
+.personNameContainer .iconContainer .coloredCircle .innerCircle
+{
+    width:100%;
+    height:100%;
+    left:9%;
+    top:5%;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: #80CABF;
+    position:absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer
+{
+    width: 90px;
+    height: 90px;
+    left: 20%;
+    position:relative;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .earsContainer
+{
+    width: 100%;
+    height: 100%;
+    left: 10%;
+    top:10%;
+    position: absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .earsContainer .earLeft
+{
+    width: 3%;
+    height: 10%;
+    top: 19%;
+    left: 16%;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    transform: rotate(-15deg);
+    position: absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .earsContainer .earRight
+{
+    width: 3%;
+    height: 10%;
+    top: 18%;
+    left: 37%;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color: white;
+    transform: rotate(190deg);
+    position: absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .faceContainer
+{
+    width: 20%;
+    height:30%;
+    top:20%;
+    left:28%;
+    border: 2px solid black;
+    border-radius:50%;
+    background-color: white;
+    position: absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .shirtContainer
+{
+    width: 30%;
+    height:30%;
+    top:54%;
+    left:25%;
+    border-radius:50% 50% 0 0;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer .iconContainer .coloredCircle .portretContainer .shirtContainer .triangle
+ {
+     width: 0;
+     height: 0;
+     border-left: 10px solid transparent;
+     border-right: 10px solid transparent;
+     border-top: 25px solid white;
+     left:9px;
+     top:0px;
+     position: absolute;
+   }
+   .personNameContainer .iconContainer .coloredCircle .portretContainer .shirtContainer .triangle .sqare
+   {
+       width: 6px;
+       height: 6px;
+       left:-3px;
+       top:-20px;
+       transform: rotate(50deg);
+       background-color: black;
+       position: absolute;
+   }
+   .personNameContainer .iconContainer .coloredCircle .portretContainer .shirtContainer .triangle .tie
+   {
+       width: 6px;
+       height: 17px;
+       left:-3px;
+       top:-17px;
+       transform: rotate(deg);
+       background-color: black;
+       position: absolute;
+   }
+/* Icon Container########################################################################################################################*/
+
+.personNameContainer .nameAndOcupationPerson
+{
+    width: 30%;
+    margin-top:15%;
+    float: left;
+}
+
+.personNameContainer .nameAndOcupationPerson .namePerson h3
 {
     margin: 0;
 }
-.cvContainer .personNameContainer .nameFunctionContainer .functionContainer h3
+.personNameContainer .nameAndOcupationPerson .ocupationPerson h4
 {
     margin: 0;
 }
-.cvContainer .personNameContainer .pictureContainer
+/*First Picture Container####################################################################*/
+.personNameContainer  .pictureContainer
 {
-    width: 40%;  
-    background-color: brown;
+    width: 50%;
+
     float: left;
 }
-.cvContainer .secondContainer
+.personNameContainer  .pictureContainer .line
 {
-    width:90%;
-    height: 100px;
-    background-color: rgb(30, 207, 198);
+    width: 40%;
+    height: 1%;
+    bottom:5%;
+    right: 0%;
+    background-color: #000;
+    position: absolute;
 }
-.cvContainer .personalInformationsContainer
+.personNameContainer  .pictureContainer .cityPicture
 {
-    width:90%;
-    height: 150px;
-    background-color: rgb(207, 30, 104);
+    width: 100%;
+    height: 100%;
+    left:20%;
+    position: relative;
+}
+.personNameContainer  .pictureContainer .cityPicture .treeContainer
+{
+    width:10%;
+    height: 40%;
+    bottom:0;
+    left:7%;
+    z-index: 5;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .pointOne
+{
+    width: 25%;
+    height: 13%;
+    top: 15%;
+    left: 0%;
+    background-color: black;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(37deg);
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .pointTwo
+{
+    width: 25%;
+    height: 13%;
+    top: 10%;
+    left: 35%;
+    background-color: black;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(37deg);
+    position: absolute;
 }
 
-.cvContainer .personalInformationsContainer .iconContainer
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .pointThree
 {
-    width: 20%;
-    background-color: #75CEC7;
-    float: left;
+    width: 25%;
+    height: 13%;
+    top: 15%;
+    right:2%;
+    background-color: black;
+    border-radius: 50% 50% 0% 50%;
+    transform: rotate(37deg);
+    position: absolute;
 }
-.cvContainer .personalInformationsContainer .iconContainer .redCircle
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .leftVerticalLine
 {
-    width: 125px;
-    height: 110px;
-    background-color: aquamarine;
-  
+    width: 4%;
+    height: 25%;
+    background-color: #000;
+    top:28%;
+    left: 12%;
+    position: absolute;
 }
-
-.cvContainer .personalInformationsContainer .iconContainer.redCircle .circleBorder
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .rightVerticalLine
 {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    border: solid 2px  black;
+    width: 5%;
+    height: 25%;
+    background-color: #000;
+    top:28%;
+    right: 12%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .middleVerticalLine
+{
+    width: 6%;
+    height: 90%;
+    background-color: #000;
+    top:12%;
+    left: 48%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .treeContainer .horizontalLine
+{
+    width: 76%;
+    height: 3%;
+    background-color: #000;
+    top:53%;
+    left: 12%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding
+{
+    width:20%;
+    height: 60%;
+    bottom:0;
+    left:15%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer
+{
+    width:80%;
+    height: 100%;
     position:absolute;
 }
-.cvContainer .personalInformationsContainer .iconContainer .redCircle .orizontalLine .orizontalLinePoint
-{  
-    width: 15px;
-    height: 15px;
-    left: 470px;
-    bottom: -7px;
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare
+{
+    width:90%;
+    height: 95%;
+    border:3px solid black;
+    left:0%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .innerWindowsOne
+{
+    width:20%;
+    height: 10%;
+    border:3px solid black;
+    top:10%;
+    left:15%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .innerWindowsTwo
+{
+    width:20%;
+    height: 10%;
+    border:3px solid black;
+    top:10%;
+    left:50%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .innerWindowsThree
+{
+    width:20%;
+    height: 10%;
+    border:3px solid black;
+    top:30%;
+    left:15%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .innerWindowsFour
+{
+    width:20%;
+    height: 10%;
+    border:3px solid black;
+    top:30%;
+    left:50%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .dor
+{
+    width:30%;
+    height: 35%;
+    border:3px solid black;
+    left:30%;
+    bottom: 0%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .firstBuilding .buildingContainer .mainSqare .dor .lock
+{
+    width:20%;
+    height: 5%;
+    border-radius: 50%;
+    border:2px solid black;
+    right:13%;
+    top:45%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding
+{
+    width:30%;
+    height: 90%;
+    bottom:0;
+    left:30%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer
+{
+    width:50%;
+    height: 30%;
+    left: 15%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .triangle
+{
+    width:0%;
+    height: 0%;
+    margin:20% auto;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid black;
+    
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .triangle:before
+{
+    content:"";
+    width:0%;
+    height: 0%;
+    margin:20% auto;
+    position: absolute;
+    top:3%;
+    left:22%;
+    z-index: 5;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 25px solid #F3F3F3;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .topLine
+{
+    width:15%;
+    height: 3%;
+    top:22%;
+    left:50%;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .bottomLine
+{
+    width: 15%;
+    height: 3%;
+    top: 85%;
+    left: 83%;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .rotateLine
+{
+    width: 64%;
+    height: 3%;
+    top: 53%;
+    left: 48%;
+    background-color: black;
+    transform: rotate(60deg);
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .leftLine
+{
+    width:3%;
+    height: 15%;
+    bottom: 0%;
+    left:25%;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .middleLine
+{
+    width:3%;
+    height: 15%;
+    bottom: 0%;
+    left:75%;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .roofContainer .rightLine
+{
+    width:3%;
+    height: 13%;
+    bottom: 0%;
+    left:90%;
+    background-color: black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .leftPart
+{
+    width:5%;
+    height: 45%;
+    border:2px solid black;
+    top:40%;
+    left:5%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .rightPart
+{
+    width:5%;
+    height: 45%;
+    border:2px solid black;
+    top:40%;
+    right:12%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .mainPart
+{
+    width:65%;
+    height: 68%;
+    border:2px solid black;
+    top:30%;
+    left:12%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .mainPart .leftLine
+{
+    width: 3%;
+    height: 80%;
+    background-color: #000;
+    top: 12%;
+    left: 20%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .mainPart .middleLine
+{
+    width: 3%;
+    height: 80%;
+    background-color: #000;
+    top: 12%;
+    left: 40%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .mainPart .rightLine
+{
+    width: 3%;
+    height: 80%;
+    background-color: #000;
+    top: 12%;
+    left: 60%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .higherBuilding .mainPart .lastLine
+{
+    width: 3%;
+    height: 100%;
+    background-color: #000;
+    right: 15%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree
+{
+    width:20%;
+    height: 55%;
+    bottom:0;
+    z-index: 5;
+    right:28%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .firstTree
+{
+    width:50%;
+    height: 95%;
+    top: 0%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .firstTree .circle
+{
+    width:60%;
+    height: 20%;
+    border-radius: 50%;
+    background-color: #F3F3F3;
+    top:50%;
+    border: 2px solid black;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .firstTree .line
+{
+    width: 5%;
+    height: 32%;
+    background-color: black;
+    top: 74%;
+    left: 33%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .secondTree
+{
+    width:50%;
+    height: 95%;
+    top: 0%;
+    right: 23%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .secondTree .circle
+{
+    width: 52%;
+    height: 84%;
+    border-radius: 50% 50% 50% 50%;
+    background-color: #F3F3F3;
+    border: 2px solid black;
+    transform: rotate(-1deg);
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .twoTree .secondTree .line
+{
+    width: 5%;
+    height: 53%;
+    background-color: black;
+    top: 55%;
+    left: 30%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding
+{
+    width:20%;
+    height: 40%;
+    bottom:0;
+ 
+    right:17%;
+    position: absolute;
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding
+{
+    width:70%;
+    height: 95%;
+    border:3px solid black;
+    left:0%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding .innerWindowsOne
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:10%;
+    left:10%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding .innerWindowsTwo
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:10%;
+    left:30%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding .innerWindowsThree
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:22%;
+    left:10%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding .innerWindowsFour
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:22%;
+    left:30%;
+    position: absolute
+}
+.personNameContainer  .pictureContainer .cityPicture .lastBuilding .mainBuilding .lastLine
+{
+    width:4%;
+    height: 100%;
+    background-color: #000;
+    top:0%;
+    right:15%;
+    position: absolute
+}
+/*First Picture Container####################################################################*/
+.personNameContainer  .horizontalLine
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    float: left;
+}
+.personNameContainer  .horizontalLine .lineContainer
+{
+    width: 10px;
+    height: 10px;
+    position: relative;
+}
+.personNameContainer  .horizontalLine .lineContainer .point
+{
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     background-color: #000;
     position: absolute;
 }
-
-.cvContainer .personalInformationsContainer .iconContainer .redCircle .innerCircle
+.cloudsContainer
 {
-    width: 100px;
-    height: 100px;
-    top:5px;
-    left:9px;
+    width: 100%;
+    height: 200px;
+    margin: auto;
+    position: relative;
+}
+.cloudsContainer .line
+{
+    width: 50%;
+    height: 1%;
+    right:0%;
+    top:2%;
+    background-color: #000;
+    position: absolute;
+
+}
+.cloudsContainer .cloudOne
+{
+    top:0px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 12s linear infinite;
+	-moz-animation: moveclouds 12s linear infinite;
+	-o-animation: moveclouds 12s linear infinite;
+}
+.cloudsContainer .cloudOne .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
     border-radius: 50%;
-    background-color: #EA7481;
-
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
 }
-.cvContainer .personalInformationsContainer .iconContainer .redCircle .higherCurve
+.cloudsContainer .cloudOne .circleRight
 {
-    width: 100px;
-    height: 100px;  
-    top: 2px;  
-    left: 4px;  
-    border: solid 2px #000;
-    border-color: #000 transparent transparent transparent;
-    border-radius: 94%/100px 100px 0 0;
-    transform: rotate(-52deg);
-
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
 }
-.cvContainer .personalInformationsContainer .iconContainer .redCircle .smallerCurve
+.cloudsContainer .cloudOne .middleCircle
 {
-    width: 30px;
-    height: 900px;  
-    top: 0px;  
-    left: 31px; 
-    border: solid 2px #000;
-    border-color: #000 transparent transparent transparent; 
-    border-radius: 255%/43px 50px 0 0px;  
-    transform: rotate(108deg); 
-
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 25px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
 }
-.cvContainer .personalInformationsContainer .personalInformationsText
+.cloudsContainer .cloudOne .mainCloud
 {
-    width: 40%;
-    background-color: coral;
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+.cloudsContainer .cloudTwo
+{
+    top:50px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 14s linear infinite;
+	-moz-animation: moveclouds 14s linear infinite;
+	-o-animation: moveclouds 14s linear infinite;
+}
+.cloudsContainer .cloudTwo .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.cloudsContainer .cloudTwo .circleRight
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.cloudsContainer .cloudTwo .middleCircle
+{
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 35px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+    
+}
+.cloudsContainer .cloudTwo .mainCloud
+{
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+.cloudsContainer .cloudThree
+{
+    top:100px;
+    left:0px;
+    height: 30%;
+    z-index: 5;
+    position: absolute;
+    -webkit-animation: moveclouds 10s linear infinite;
+	-moz-animation: moveclouds 10s linear infinite;
+	-o-animation: moveclouds 10s linear infinite;
+}
+.cloudsContainer .cloudThree .circleLeft
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    left:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.cloudsContainer .cloudThree .circleRight
+{
+    width: 35%;
+    height: 30px;
+    top:20px;
+    right:0px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.cloudsContainer .cloudThree .middleCircle
+{
+    width: 45%;
+    height: 50px;
+    top:0px;
+    left: 25px;
+    border-radius: 50%;
+    border:2px solid white;
+    background-color: white;
+    position: absolute;
+}
+.cloudsContainer .cloudThree .mainCloud
+{
+    width: 60%;
+    height: 10px;
+    left:20px;
+    top:40px;
+    background-color: white;
+    border:2px solid white;
+    position: absolute;
+}
+
+.personalInformationsContainer
+{
+    width: 100%;
+    position: relative;
+}
+/*Icon Container####################################################################################*/
+.personalInformationsContainer .iconContainer
+{
+    width: 20%;
+    height: 100px;
+    position: relative;
+    z-index: 10;
     float: left;
 }
-.cvContainer .personalInformationsContainer .personalInformationsText .personalInformationsTitle h3
+.personalInformationsContainer .iconContainer .coloredCircle
+{
+    width:95%;
+    height:100%;
+    left: 7%;
+    position:relative;
+}
+.personalInformationsContainer .iconContainer  .coloredCircle .innerCircle
+{
+    width:90px;
+    height:90px;
+    left:6%;
+    top:3%;
+    border-radius: 50%;
+    border:3px solid black;
+    background-color: #E56878;
+    position:absolute;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon
+{
+    width: 30%;
+    height:55%;
+    top:25%;
+    left:26%;
+    background-color: #D2CDD1;
+    border:1px solid black;
+    border-radius: 20% 20% 20% 20%;
+    position: absolute;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon .innerSquare
+{
+    width: 30%;
+    height:30%;
+    top:19%;
+    left:19%;
+    background-color: #D2CDD1;
+    border:2px solid black;
+    border-radius: 20% 20% 20% 20%;
+    position: absolute;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon .blackLines
+{
+    width: 30%;
+    height:100%;
+    top:19%;    
+    left:61%;
+    position: absolute;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon .blackLines .lineOne
+{
+    width: 100%;
+    height:2%;
+    position: relative;
+    background-color: #000;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon .blackLinesTwo
+{
+    width: 70%;
+    height:19%;
+    top:52%;    
+    left:20%;
+    position: absolute;
+}
+.personalInformationsContainer .iconContainer .coloredCircle .informationIcon .blackLinesTwo .lineTwo
+{
+    width: 100%;
+    height:2%;
+    position: relative;
+    background-color: #000;
+    margin-top: 9%;
+}
+.personalInformationsContainer  .personalInformations
+{
+    width: 50%;
+    float: left;
+}
+.personalInformationsContainer  .personalInformations  .horizontalLine
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    float: left;
+}
+.personalInformationsContainer  .personalInformations  .horizontalLine .lineContainer
+{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.personalInformationsContainer  .personalInformations  .horizontalLine .lineContainer .point
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    right: 0;
+    top:-4px;
+    position: absolute;
+}
+.personalInformationsContainer  .personalInformations  .horizontalLine .lineContainer .line
+{
+    width: 30%;
+    height: 2px;
+    left: -11%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+}
+.personalInformationsContainer  .personalInformations .personalInformationsTitle h3
 {
     margin: 0;
 }
+.personalInformationsContainer  .personalInformations .horizontalLine
+{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+}
+.personalInformationsContainer  .personalInformations .personalInformationsText
+{
+    width: 100%;
+}
+p
+{
+    text-align: justify;
+}
+h3
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.personalInformationsContainer   .contactContainer
+{
+    width: 55%;
+    margin-left: 15%;
+ 
+    float: left;
+}
+.personalInformationsContainer   .contactContainer .contactTitle h3
+{
+    margin-left: 10%;
+}
+/*Details####################################################################################*/
+.personalInformationsContainer  .contactContainer .detailsContainer
+{
+    width: 100%;
+    float: left;
+}
+
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsCountry {
+   
+
+    float:left;
+    word-wrap: break-word;
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsCountry .detailsItemIcon{
+  
+    float:left;
+    position: relative;
+    text-align: center;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsCountry .detailsItemIcon .icon
+{
+    width:50%;
+    height: 20px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid black;
+    float: left;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsCountry .detailsItemIcon .point
+{
+    width:25%;
+    height: 10px;
+    top: 6.5px;
+    left: 16%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsCountry .detailsItemDescription{
+    width: 80%;
+    float:left;
+ 
+}
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsLocation {
+
+ 
+    word-wrap: break-word;
+    float:left;
+    margin-top: 10px;
+    margin-top: 10px;
+ 
+}
+
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsLocation .detailsItemIcon{
+
+    float:left;
+    position: relative;
+}
+
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsLocation .detailsItemDescription{
+    width: 80%;
+    float:left;
+}
 
 
-/
-/
-/
-/
-.container{
-    width: 600px;
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsLocation .detailsItemIcon .icon
+{
+    width:50%;
+    height: 20px;
+    border-radius: 50%;
+ 
+    border: 1px solid black;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsLocation .detailsItemIcon .border
+{
+    width:25%;
+    height: 10px;
+    top: 4px;
+    left: 5px;
+    border-radius: 50% 50% 0% 50%;
+    position: absolute;
+    transform: rotate(45deg);
+    border: 1px solid black;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsLocation .detailsItemIcon .point
+{
+    width:10%;
+    height: 3px;
+    top: 8px;
+    left: 9px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: black;
+}
+
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsTelephone {
+ 
+  
+    float:left;
+    word-wrap: break-word;
+
+ 
+    margin-top: 10px;
+    margin-top: 10px;
+}
+
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsTelephone .detailsItemIcon{
+
+    float:left;
+    position: relative;
+
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsTelephone  .detailsItemIcon .icon
+{
+    width:50%;
+    height: 20px;
+    border-radius: 50%;
+    float: left;
+    text-align: center;
+    border: 1px solid black;
+
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsTelephone  .detailsItemIcon .icon .firstBorder
+{
+    width:25%;
+    height: 13px;
+    top: 4px;
+    left: 15%;
+    border-radius: 10% 10% 10% 10%;
+    position: absolute;
     border: 1px solid black;
 }
 
-.imageContainer {
-    float:left;
-    width: 24%;
-    border:1px solid black;
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsTelephone  .detailsItemIcon .icon .secondBorder
+{
+    width:15%;
+    height: 7px;
+    top: 6px;
+    left: 20%;
+    border-radius: 10% 10% 10% 10%;
+    position: absolute;
+    border: 1px solid black;
 }
-.image {
-    max-width: 100px;
-    max-height: 100px;  
-    min-width: 100px;
-    min-height: 100px;  
-    background-color: aqua;
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsTelephone  .detailsItemIcon .icon .middleButton
+{
+    width:3%;
+    height: 1px;
+    top: 15px;
+    left: 25%;
+    border-radius: 50%;
+    position: absolute;
+    border: 1px solid black;
 }
-
-.description {
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsTelephone .detailsItemDescription{
+    width: 80%;
     float:left;
-    background-color: bisque;
-    width: 75%;
 }
-
-.verticalLine {
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsEmail {
+  
     float:left;
-    min-width: 20%;
-    background-color: aqua;
-}
-
-
-.details {
-    float:left;
-    width: 80%;    
-    background-color: blueviolet;
-}
-
-
-.detailsItem {
-    background-color: aqua;
-    width: 50%;
-    float:left;
+    word-wrap: break-word;
     margin-top: 10px;
     margin-top: 10px;
+  
 }
 
-.detailsItemIcon{
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsEmail .detailsItemIcon{
+
+    float:left;
+    position: relative;
+
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsEmail  .detailsItemIcon .border
+{
+    width:50%;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsEmail  .detailsItemIcon .square
+{
+    width:32%;
+    height: 12px;
+    top: 5px;
+    left: 5px;
+    border-radius: 20% 20% 20% 20%;
+    background-color: black;
+    position: absolute;
+
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsEmail  .detailsItemIcon .square .lineOne
+{
+    width:50%;
+    height: 1px;
+    top: 4px;
+    left: 0px;
+    transform: rotate(30deg);
+    background-color:white;
+    position: absolute;
+}
+.personalInformationsContainer   .contactContainer .detailsContainer .detailsEmail  .detailsItemIcon .square .lineTwo
+{
+    width:50%;
+    height: 1px;
+    top: 4px;
+    left: 5.5px;
+    transform: rotate(-30deg);
+    background-color:white;
+    position: absolute;
+
+}
+
+.personalInformationsContainer  .contactContainer .detailsContainer .detailsEmail .detailsItemDescription{
+    width: 80%;
+    float:left;
+
+}
+/*Details####################################################################################*/
+.personalInformationsContainer .buildingContainer
+{
+    width: 30%;
+    height: 300px;
+    float: left;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer
+{
+    width: 100%;
+    height: 100%;
+
+    position: relative;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .line
+{
+    width: 100%;
+    height: 1%;
+    bottom:0%;
+    background: black;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .circles
+{
+    width: 30%;
+    height: 20%;
+    bottom:0%;
+    left:10%;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .circles .circleOne
+{
     width: 20%;
-    float:left;
-    background-color: brown;
+    height: 60%;
+    bottom:0%;
+    border-radius: 50% 50% 0% 0%;
+    border:2px solid black;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .circles .circleTwo
+{
+    width: 45%;
+    height: 100%;
+    bottom:0%;
+    left:20%;
+    border-radius: 50% 50% 0% 0%;
+    border:2px solid black;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .circles .circleThree
+{
+    width: 20%;
+    height: 60%;
+    bottom:0%;
+    right:7%;
+    border-radius: 50% 50% 0% 0%;
+    border:2px solid black;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building
+{
+    width: 50%;
+    height: 80%;
+    bottom:0%;
+    left: 30%;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsOne
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:10%;
+    left:10%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsTwo
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:10%;
+    left:30%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsThree
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:22%;
+    left:10%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsFour
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:22%;
+    left:30%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsFive
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:33%;
+    left:10%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsSix
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:33%;
+    left:30%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsSeven
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:44%;
+    left:10%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .innerWindowsEight
+{
+    width:10%;
+    height: 5%;
+    border:3px solid black;
+    top:44%;
+    left:30%;
+    position: absolute
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .mainBulding
+{
+    width: 90%;
+    height: 100%;
+    bottom:0%;
+    border:2px solid black;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .building .lastLine
+{
+    width: 2%;
+    height: 100%;
+    right:10%;
+    background-color: #000;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .tree
+{
+    width: 20%;
+    height: 35%;
+    bottom:1%;
+    right: 10%;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .tree .circleOne
+{
+    width: 30%;
+    height: 40%;
+    left:20%;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: #F3F3F3;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .tree .circleTwo
+{
+    width: 40%;
+    height: 20%;
+    left:15%;
+    top:25%;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: #F3F3F3;
+    z-index: 5;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .tree .circleThree
+{
+    width: 30%;
+    height: 40%;
+    left:20%;
+    top:30%;
+    border-radius: 50%;
+    border:2px solid black;
+    background-color: #F3F3F3;
+    position: absolute;
+}
+.personalInformationsContainer .buildingContainer .pictureContainer .tree .line
+{
+    width: 3%;
+    height: 30%;
+    bottom: 0%;
+    left: 40%;
+    position: absolute;
+    background-color: black;
+}
+.educationContainer
+{
+    width: 100%;
+    position: relative;
+}
+/*Book Container############################################################################*/
+.educationContainer  .iconContainer
+{
+    width: 20%;
+    height: 100px;
+    z-index: 10;  
+    float: left;
+}
+.educationContainer .iconContainer .coloredCircle
+{
+    width:95%;
+    height:100%;
+    left: 7%;
+    z-index: 5;
+    position:relative;
 }
 
-.detailsItemDescription{
+.educationContainer .iconContainer  .coloredCircle .innerCircle
+{
+    width:90px;
+    height:90px;
+    left:6%;
+    top:3%;
+    border-radius: 50%;
+    border:3px solid black;
+    background-color: orangered;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer
+{
+    width:30%;
+    height:50%;
+    left:25%;
+    top:25%;
+    z-index: 5;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover
+{
+    width:100%;
+    height:100%;
+    left:0%;
+    top:0%;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover .baseCover
+{
+    width:15%;
+    height:100%;
+    left:0%;
+    top:0%;
+    border-radius: 30% 0% 0% 30%;
+    background-color:#B58859;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover .line
+{
+    width:5%;
+    height:100%;
+    left:15%;
+    position:absolute;
+    background-color:#DDA057;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover .mainCover
+{
+    width:80%;
+    height:100%;
+    left:20%;
+    top:0%;
+    background-color: #B48759;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer  .pages
+{
+    width:89%;
+    height:15%;
+    left:5%;
+    top:3%;
+    border-radius: 25% 0% 0% 25%;
+    background-color: #EFECEC;
+    position:absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover .mainCover .innerCover
+{
+    width: 100%;
+    height: 82%;
+    top: 18%;
+    background-color: #EBB657;
+    position: absolute;
+}
+.educationContainer .iconContainer .coloredCircle .bookContainer .cover .mainCover .innerCover .title
+{
     width: 60%;
-    float:left;
-    background-color: greenyellow;
+    height: 20%;
+    top: 25%;
+    left:12%;
+    background-color:#313131;
+    position: absolute;
+}
+/*Book Container############################################################################*/
+.educationContainer  .educationInformations
+{
+    width: 50%;
+    float: left;
+}
+.educationContainer .paperPicture
+{
+    width: 30%;
+    height: 200px;
+
+    float: left;
+}
+.educationContainer .paperPicture .pencilCotainer
+{
+    top:30%;
+    left: 30%;
+    width: 30%;
+    height: 40%;
+    position: relative;
+    transform: rotate(20deg);
+}
+.educationContainer .paperPicture .pencilCotainer .pencil 
+{
+    width: 32%;
+    height: 100%;
+    background-color: gray;
+  
+}
+  
+.educationContainer .paperPicture .pencilCotainer .pencil  .top 
+{
+    width: 100%;
+    height: 15px;
+    background-color: black;
+}
+.educationContainer .paperPicture .pencilCotainer .pencil  .topBorder 
+{
+    width: 100%;
+    height: 5px;
+    background-color: white;
+  }
+  
+.educationContainer .paperPicture .pencilCotainer  .bottom 
+{
+    width: 11px;
+    height: 0px;
+    border-top: 20px solid #ffc266;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+  }
+  
+  .educationContainer .paperPicture .pencilCotainer  .bottom  .nib 
+{
+    width: 0px;
+    height: 0px;
+    border-top: 10px solid black;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    left:8%;
+    position: absolute;
+  }
+  
+.educationContainer  .educationTitle h3
+{
+    margin: 0;
+}
+.educationContainer  .educationInformations .educationText
+{
+    width: 100%;
+    float: left;
+}
+.educationContainer  .educationInformations .horizontalLine
+{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    float: left;
+}
+.educationContainer  .educationInformations  .horizontalLine .lineContainer
+{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.educationContainer  .educationInformations  .horizontalLine .lineContainer .point
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    right: 0;
+    top:-4px;
+    position: absolute;
+}
+.educationContainer  .educationInformations  .horizontalLine .lineContainer .line
+{
+    width: 30%;
+    height: 1px;
+    left: -11%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+}
+.educationContainer  .educationInformations .educationInfo
+{
+    width: 100%;
+    float: left;
+}
+.educationContainer  .educationInformations .educationInfo .educationList
+{
+    margin: 0;
+}
+.educationContainer  .educationInformations .educationInfo .educationList .universityContainer
+{
+   margin: 0;
+}
+.educationContainer  .educationInformations .educationInfo .educationList .universityContainer .timeAndFormEducation .timeInterval
+{
+    word-wrap: break-word;
+    float: left;
+}
+.educationContainer  .educationInformations .educationInfo .educationList .universityContainer .timeAndFormEducation .formOfEducation
+{
+    word-wrap: break-word;
+    float: left;
+}
+.formOfEducation h4
+{
+    margin-left:40px;
+}
+.educationContainer  .educationInformations .educationInfo .educationList .highSchoolContainer
+{
+   margin: 0;
 }
 
+.educationContainer  .educationInformations .educationInfo .educationList .highSchoolContainer .timeAndFormEducation .timeInterval
+{
+    word-wrap: break-word;
+    float: left;
+}
+.educationContainer  .educationInformations .educationInfo .educationList .highSchoolContainer .timeAndFormEducation .formOfEducation
+{
+    word-wrap: break-word;
+    float: left;
+}
+.workExperienceContainer
+{
+    width: 100%;
+    position: relative;
+}
+.workExperienceContainer .iconContainer
+{
+    width: 20%;
+    height: 100px;
+    z-index: 10;
+    float: left;
+}
+.workExperienceContainer .iconContainer .coloredCircle
+{
+    width:95%;
+    height:100%;
+    left: 7%;
+    position:relative;
+}
+.workExperienceContainer .iconContainer .coloredCircle .innerCircle
+{
+    width:90px;
+    height:90px;
+    left:6%;
+    top:3%;
+    border-radius: 50%;
+    border:3px solid black;
+    background-color: green;
+    position:absolute;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer
+{
+    width: 50%;
+    height: 50%;
+    top:20%;
+    left:15%;
+    position: relative;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer .handle
+{
+    width: 40%;
+    height: 20%;
+    top:20%;
+    left:31%;
+    border:1px solid black;
+    position: absolute;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer .handle .innerHandle
+{
+    width: 100%;
+    height: 20%;
+    
+    background-color: #000;
+    position: absolute;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer .mainbriefCase
+{
+    width:80%;
+    height: 60%;
+    top: 40%;
+    left: 10%;
+    border-radius: 20% 20% 20% 20%;
+    background-color: #BABCB9;
+    border:2px solid black;
+    position: absolute;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer .line
+{
+    width:80%;
+    height: 3%;
+    top: 60%;
+    left: 13%;
+    background-color: black;
+    position: absolute;
+}
 
-<html>
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer  .closureLeft
+{
+    width:5%;
+    height: 10%;
+    top: 58%;
+    left: 25%;
+    border:2px solid black;
+    z-index:10;
+    position: absolute;
+}
+.workExperienceContainer .iconContainer .coloredCircle .briefcaseContainer  .closureRight
+{
+    width:5%;
+    height: 10%;
+    top: 58%;
+    left: 70%;
+    border:2px solid black;
+    z-index:10;
+    position: absolute;
+}
+.workExperienceContainer .workExperienceInfo
+{
+    width: 50%;
+    float: left;
+}
+.workExperienceContainer .workExperienceInfo .workTitle h3
+{
+    margin: 0;
+}
+.workExperienceContainer .workExperienceInfo .horizontalLine
+{
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    float: left; 
+}
+.workExperienceContainer .workExperienceInfo  .horizontalLine .lineContainer
+{
+    width: 100%;
+    height: 10%;
+    position: relative;
+}
+.workExperienceContainer .workExperienceInfo  .horizontalLine .lineContainer .point
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    right: 0;
+    top:-4px;
+    position: absolute;
+}
+.workExperienceContainer .workExperienceInfo  .horizontalLine .lineContainer  .line
+{
+    width: 30%;
+    height: 1px;
+    left: -11%;
+    background-color: black;
+    position: absolute;
+    z-index: 10;
+}
+.workExperienceContainer .workExperienceInfo .workList
+{
+    width: 100%;
+    float: left;
+}
+.workExperienceContainer .workExperienceInfo .workList .simpologyContainer
+{
+   margin: 0;
+}
+.workExperienceContainer .workExperienceInfo .workList .simpologyContainer .timeAndFormWork .timeInterval
+{
+    word-wrap: break-word;
+    float: left;
+}
+.workExperienceContainer .workExperienceInfo  .workList .simpologyContainer .timeAndFormWork .formOfWork
+{
+    word-wrap: break-word;
+    float: left;
+}
 
-<head>
-    <link rel="stylesheet" href="./site.css">
-</head>
+.formOfWork h4
+{
+    margin-left:40px;
+}
 
-<body>
-    <div class="container">
+.workExperienceContainer .whellPicture
+{
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.lastPicture
+{
+    width: 100%;
+    height: 100px;
+    background-color: #80CABF;
+    position: relative;
+}
+h3
+{
+    margin :0;
+}
+ul, li
+{
+    list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0;
+}
+@media screen and (max-width:800px) {
+    .aFourBackground, .detailsContainer {
+      width:100%;
+    }
+  }
+  @media screen and (max-width:800px) {
+    .detailsCountry,  .detailsLocation, .detailsTelephone, .detailsEmail {
+        width:100%;
+        margin:5px;
+    }
+  }
+  @media screen and (min-width:800px) {
+    .detailsCountry,  .detailsLocation, .detailsTelephone, .detailsEmail, .detailsItemIcon {
+        width:50%;
+       
+    }
+  }
+  @media screen and (max-width:800px) {
+    .detailsItemIcon {
+         width:38px ;
+     }
+   }
+   @media screen and (min-width:800px) {
+    .detailsItemIcon {
+         width:38px;
+     }
+   }
+   /*Education*/
+   @media screen and (max-width:800px) {
+    .timeInterval {
+         width:100%;
+     }
+   }
 
-        <div class="imageContainer">
-            <div class="image">
+   @media screen and (min-width:800px) {
+    .timeInterval {
+        width:40%;
+    }
+   }
+   
+   @media screen and (max-width:800px) {
+    .formOfEducation {
+         width:100%;
+         
+     }
+   }
+   
+   @media screen and (min-width:800px) {
+    .formOfEducation {
+        width:60%;
+    }
+   }
+   @media screen and (max-width:800px) {
+    .formOfEducation h4{
+        margin-left:0;
+    }
+   }
+    /*WORK*/
+    @media screen and (min-width:800px) {
+        .formOfWork {
+            width:60%;
+        }
+       }
+    @media screen and (max-width:800px) {
+    .formOfWork {
+        width:100%;
+    }
+    }
+    @media screen and (max-width:800px) {
+        .formOfWork h4{
+            margin-left:0;
+        }
+       }
+    @media screen and (max-width:800px) {
+    .iconContainer {
+        height: 60px ;
+    }
+    }
+    @media screen and (max-width:700px) {
+    .iconContainer {
+        height: 40px !important;
+        }
+    }
+    @media screen and (max-width:600px) {
+        .iconContainer {
+            height: 30px ;
+            }
+        }
 
-            </div>
-        </div>
-        <div class="description">
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
 
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
-            asdas asd asd ad
+    @media screen and (max-width:600px) {
+        .cloudOne, .cloudTwo, .cloudThree {
+            width: 100px;
+            }
+        }
+    @media screen and (min-width:600px) {
+        .cloudOne, .cloudTwo, .cloudThree {
+            width: 100px;
+            }
+        }
 
-        </div>
 
-        <div style="clear:both"></div>
+    @media screen and (max-width:800px) {
+        .pictureContainer{
+                height: 150px !important;
+            }
+            }
+    @media screen and (max-width:700px) {
+        .pictureContainer{
+            height: 150px !important;
+            }
+            }
+    @media screen and (max-width:600px) {
+    .pictureContainer{
+            height: 100px !important;
+        }
+        }
+    @media screen and (min-width:600px) {
+        .pictureContainer{
+            height: 170px;
+            }
+            }
+        
 
-        <div class="verticalLine">
-            asdasd
-        </div>
-        <div class="details">
-            <div class="detailsItem">
-                <div class="detailsItemIcon">
-                    asdasd
-                </div>
-                <div class="detailsItemDescription">
-                    asdasd asd asd asd asd a
-                </div>
-            </div>
-            <div class="detailsItem">
-                <div class="detailsItemIcon">
-                    asdasd
-                </div>
-                <div class="detailsItemDescription">
-                    asdasd asd asd asd asd a
-                </div>
-            </div>
-            <div class="detailsItem">
-                <div class="detailsItemIcon">
-                    asdasd
-                </div>
-                <div class="detailsItemDescription">
-                    asdasd asd asd asd asd a
-                </div>
-            </div>
-            <div class="detailsItem">
-                <div class="detailsItemIcon">
-                    asdasd
-                </div>
-                <div class="detailsItemDescription">
-                    asdasd asd asd asd asd a
-                </div>
-            </div>
-        </div>
-        <div style="clear:both"></div>
-    </div>
-    </div>
-</body>
-
-</html>
+@-webkit-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-moz-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
+@-o-keyframes moveclouds {
+	0% {margin-left: 1000px;}
+	100% {margin-left: -1000px;}
+}
