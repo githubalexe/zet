@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/36147032/remove-selected-files-using-jquery
+
+https://jsfiddle.net/dvy10ms7/2/
