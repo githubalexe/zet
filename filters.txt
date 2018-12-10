@@ -1,0 +1,3 @@
+https://www.sitepoint.com/build-simple-image-editor-with-css-filters-jquery/
+
+https://css-tricks.com/snippets/css/monotone-image-css/
