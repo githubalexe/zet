@@ -1,0 +1,33 @@
+
+- un angajat inchiriaza un film sau mai multe unui client de la un anumit magazin ce are o anume adresa;
+- clientul plateste o anumita suma de bani si primeste filmul/filmele pe o anumita perioada de timp;
+- magazinul respectiv are un inventar al filmelor si o lista cu toate inchirierile facute;
+
+Aplicatia ar contine :
+	* O lista cu toate magazinele
+	
+	Fiecare magazin are:
+	 - lista de filme unde fiecare film poate fi accesat pentru detalii ce contine o lista de actori,
+
+	   unde la fel fiecare actor poate fi accesat pentru detalii;
+
+	 - lista de angajati unde fiecare angajat poate fi accesat pentru detalii;
+
+	 - lista de clienti unde fiecare client poate fi accesat pentru detalii;
+
+	 - lista cu inchirierile facute;
+	
+	 - vanzarile pe o anumita categorie de film;
+		
+	 - filme care sunt pe stock;
+	
+	 - filmele care nu mai sunt pe stock;
+
+	 - vanzarile pe magazin;
+
+https://dev.mysql.com/doc/sakila/en/sakila-structure.html
+						
+		
+
+
+	
