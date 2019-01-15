@@ -1,0 +1,1840 @@
+openapi: 3.0.0
+info:
+  description: ""
+  version: "1.0.0"
+  title: "DVD Rentals"
+paths:
+  /stores/{storeId}/rentals:
+    get:
+      tags:
+      - "Rentals"
+      summary: "Gets all the rentals from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+      }
+      - name: "page"
+        in: "path"
+        description: "The number of the pages on the screen."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+      }
+      - name: "pageSize"
+        in: "path"
+        description: "The number of the rentals on the page."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+      }
+      - name: "sort"
+        in: "path"
+        description: "Sorting by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+      }
+      - name: "filter"
+        in: "path"
+        description: "Filtering by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+      }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Rental Id:
+                     type: "integer"
+                     example: 3
+                   Film Title:
+                     type: "string"
+                     example: "Inception"
+                   Customer:
+                     type: "string"
+                     example: "John Michael"
+                   Rental Date:
+                     type: "string"
+                     example: "10/10/2018"
+                   Return Date:
+                     type: "string"
+                     example: "11/10/2018"
+                   Payment Date:
+                     type: "string"
+                     example: "10/10/2018"
+                   Amount:
+                     type: "string"
+                     example: "30$"
+                   Employee:
+                     type: "string"
+                     example: "Karl Williams"                     
+        500:
+          description: "Internal Server Error"
+    post:
+      tags:
+      - "Rentals"
+      summary: "Creates a new rental for a customer."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerId"
+        in: "path"
+        description: "ID of customer to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "paymentDate"
+        in: "path"
+        description: "Create payment date."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "date-time"
+        }
+      - name: "rentalDate"
+        in: "path"
+        description: "Create rental date."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "date-time"
+        }
+      - name: "amount"
+        in: "path"
+        description: "Create amount."
+        required: true
+        "schema": {
+        "type": "number",
+        "format": "float"
+        }
+      responses:
+        200:
+          description: "The rental has been successfully created."
+        500:
+          description: "Internal Server Error"
+    delete:
+      tags:
+      - "Rentals"
+      summary: "Delete rentals."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        200:
+          description: "The rentals have been successfully deleted."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/rentals/{rentalId}:
+    delete:
+      tags:
+      - "Rentals"
+      summary: "Delete a rental."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "rentalId"
+        in: "path"
+        description: "ID of rental to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        200:
+          description: "The rental has been successfully deleted."
+        500:
+          description: "Internal Server Error"
+    get:
+      tags:
+      - "Rentals"
+      summary: "Gets the rental with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "rentalId"
+        in: "path"
+        description: "ID of rental to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Rental Id:
+                     type: "integer"
+                     example: 4
+                   Film Title:
+                     type: "string"
+                     example: "Lion"
+                   Customer:
+                     type: "string"
+                     example: "Michael Phil"
+                   Rental Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Return Date:
+                     type: "string"
+                     example: "18/10/2018"
+                   Payment Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Amount:
+                     type: "string"
+                     example: "20$"
+                   Employee:
+                     type: "string"
+                     example: "Karl Williams"
+        500:
+          description: "Internal Server Error"
+    put:
+      tags:
+      - "Rentals"
+      summary: "Updates the details of a selected rental."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "rentalId"
+        in: "path"
+        description: "ID of rental to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerName"
+        in: "path"
+        description: "Updated the name of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "filmTtile"
+        in: "path"
+        description: "Updated the name of the film."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "paymentDate"
+        in: "path"
+        required: true
+        description: "Updated the payment date."
+        "schema": {
+        "type": "string",
+        "format": "date-time"
+        }
+      - name: "rentalDate"
+        in: "path"
+        description: "Updated the rental date."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "date-time"
+        }
+      - name: "returnDate"
+        in: "path"
+        description: "Updated the return date."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "date-time"
+        }
+      - name: "amount"
+        in: "path"
+        description: "Updated the amount."
+        required: true
+        "schema": {
+        "type": "number",
+        "format": "float"
+        }
+      responses:
+        200:
+          description: "The rental has been successfully updated."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/customers:
+    get:
+      tags:
+      - "Customers"
+      summary: "Gets all the customers from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "page"
+        in: "path"
+        description: "The number of the pages on the screen."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "pageSize"
+        in: "path"
+        description: "The number of the customers on the page."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "sort"
+        in: "path"
+        description: "Sorting by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "filter"
+        in: "path"
+        description: "Filtering by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Name:
+                     type: "string"
+                     example: "Dinu Gurau"
+                   Email:
+                     type: "string"
+                     example: "dinu@gmail.com"
+                   Created Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Status:
+                     type: "string"
+                     example: "Active"
+        500:
+          description: "Internal Server Error"
+    post:
+      tags:
+      - "Customers"
+      summary: "Creates a new customer."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerFirstName"
+        in: "path"
+        description: "Created the first name of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "customerLastName"
+        in: "path"
+        description: "Created the last name of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "email"
+        in: "path"
+        description: "Created the email of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address"
+        in: "path"
+        description: "Created the first address of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address2"
+        in: "path"
+        description: "Created the second address of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "distrinct"
+        in: "path"
+        description: "Created the distrinct."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "country"
+        in: "path"
+        description: "Created the country."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "city"
+        in: "path"
+        description: "Created the city."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "postalCode"
+        in: "path"
+        description: "Created the postal code."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "phone"
+        in: "path"
+        description: "Created the phone."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The customer has been successfully created."
+        500:
+          description: "Internal Server Error"
+    delete:
+      tags:
+      - "Customers"
+      summary: "Delete customers."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        200:
+          description: "The customers have been successfully deleted."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/customers/{customerId}:
+    delete:
+      tags:
+      - "Customers"
+      summary: "Delete a customer."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerId"
+        in: "path"
+        description: "ID of customer to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        200:
+         description: "The customer has been successfully deleted."
+        500:
+          description: "Internal Server Error"
+    get:
+      tags:
+      - "Customers"
+      summary: "Gets the customer with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerId"
+        in: "path"
+        description: "ID of customer to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Name:
+                     type: "string"
+                     example: "Alin Popescu"
+                   Email:
+                     type: "string"
+                     example: "alin@gmail.com"
+                   Created Date:
+                     type: "string"
+                     example: "02/01/2019"
+                   Status:
+                     type: "string"
+                     example: "Active"
+        500:
+          description: "Internal Server Error"
+    put:
+      tags:
+      - "Customers"
+      summary: "Updates the details of a selected customer."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerId"
+        in: "path"
+        description: "ID of customer to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int32"
+        }
+      - name: "customerFirstName"
+        in: "path"
+        description: "Updated the first name of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "customerLastName"
+        in: "path"
+        description: "Updated the last name of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "email"
+        in: "path"
+        description: "Updated the email of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address"
+        in: "path"
+        description: "Updated the first address of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address2"
+        in: "path"
+        description: "Updated the second address of the customer."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "distrinct"
+        in: "path"
+        description: "Updated the distrinct."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "country"
+        in: "path"
+        description: "Updated the country."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "city"
+        in: "path"
+        description: "Updated the city."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "postalCode"
+        in: "path"
+        description: "Updated the postal code."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "phone"
+        in: "path"
+        description: "Updated the phone."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The customer has been successfully epdated."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/customers/{customerId}/rentals:
+    get:
+      tags:
+      - "Customers"
+      summary: "Gets the rental history of a customer with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "customerId"
+        in: "path"
+        description: "ID of customer to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Rental Id:
+                     type: "integer"
+                     example: 4
+                   Film Title:
+                     type: "string"
+                     example: "Lion"
+                   Rental Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Return Date:
+                     type: "string"
+                     example: "18/10/2018"
+                   Payment Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Amount:
+                     type: "string"
+                     example: "20$"
+                   Employee:
+                     type: "string"
+                     example: "Karl Williams"
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/employees:
+    get:
+      tags:
+      - "Employees"
+      summary: "Gets all the employees from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "page"
+        in: "path"
+        description: "The number of the pages on the screen."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "pageSize"
+        in: "path"
+        description: "The number of the employees on the page."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "sort"
+        in: "path"
+        description: "Sorting by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "filter"
+        in: "path"
+        description: "Filtering by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Name:
+                     type: "string"
+                     example: "Alex Badescu"
+                   Email:
+                     type: "string"
+                     example: "alex@gmail.com"
+                   City:
+                     type: "string"
+                     example: "Bucharest"
+                   Country:
+                     type: "string"
+                     example: "Romania"
+        500:
+          description: "Internal Server Error"
+    post:
+      tags:
+      - "Employees"
+      summary: "Creates a new employee."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeFirstName"
+        in: "path"
+        description: "Created the first name of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "employeeLastName"
+        in: "path"
+        description: "Created the last name of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "email"
+        in: "path"
+        description: "Created the email of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address"
+        in: "path"
+        description: "Created the first address of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address2"
+        in: "path"
+        description: "Created the second address of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "distrinct"
+        in: "path"
+        description: "Created the distrinct."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "country"
+        in: "path"
+        description: "Created the country."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "city"
+        in: "path"
+        description: "Created the city."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "postalCode"
+        in: "path"
+        description: "Created the postal code."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "phone"
+        in: "path"
+        description: "Created the phone."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The employee has been successfully created."
+        500:
+          description: "Internal Server Error"
+    delete:
+      tags:
+      - "Employees"
+      summary: "Delete employees."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        200:
+          description: "The employees have been successfully deleted."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/employees/{employeeId}:
+    delete:
+      tags:
+      - "Employees"
+      summary: "Delete a employee."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeId"
+        in: "path"
+        description: "ID of employee to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        200:
+          description: "The employee has been successfully deleted."
+        500:
+          description: "Internal Server Error"
+    get:
+      tags:
+      - "Employees"
+      summary: "Gets the employee with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeId"
+        in: "path"
+        description: "ID of employee to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Name:
+                     type: "string"
+                     example: "Zakaria Ahmed"
+                   Email:
+                     type: "string"
+                     example: "zakaria@gmail.com"
+                   City:
+                     type: "string"
+                     example: "Bucharest"
+                   Country:
+                     type: "string"
+                     example: "Romania"
+        500:
+          description: "Internal Server Error"
+    put:
+      tags:
+      - "Employees"
+      summary: "Updates the details of a selected employee."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeId"
+        in: "path"
+        description: "ID of employee to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeFirstName"
+        in: "path"
+        description: "Updated the first name of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "employeeLastName"
+        in: "path"
+        description: "Updated the last name of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "email"
+        in: "path"
+        description: "Updated the email of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address"
+        in: "path"
+        description: "Updated the first address of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address2"
+        in: "path"
+        description: "Updated the second address of the employee."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "distrinct"
+        in: "path"
+        description: "Updated the distrinct."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "country"
+        in: "path"
+        description: "Updated the country."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "city"
+        in: "path"
+        description: "Updated the city."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "postalCode"
+        in: "path"
+        description: "Updated the postal code."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "phone"
+        in: "path"
+        description: "Updated the phone."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+           description: "The employee has been successfully updated."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/employees/{employeeId}/rentals:
+    get:
+      tags:
+      - "Employees"
+      summary: "Gets the rental history of a employee with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "employeeId"
+        in: "path"
+        description: "ID of employee to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Rental Id:
+                     type: "integer"
+                     example: 4
+                   Film Title:
+                     type: "string"
+                     example: "Lion"
+                   Customer:
+                     type: "string"
+                     example: "Marius Dobre"
+                   Rental Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Return Date:
+                     type: "string"
+                     example: "18/10/2018"
+                   Payment Date:
+                     type: "string"
+                     example: "14/10/2018"
+                   Amount:
+                     type: "string"
+                     example: "20$"
+                   Employee:
+                     type: "string"
+                     example: "Karl Williams"
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/films:
+    get:
+      tags:
+      - "Films"
+      summary: "Gets all the films from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "page"
+        in: "path"
+        description: "The number of the pages on the screen."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "pageSize"
+        in: "path"
+        description: "The number of the films on the page."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "sort"
+        in: "path"
+        description: "Sorting by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "filter"
+        in: "path"
+        description: "Filtering by something."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Film Title:
+                     type: "string"
+                     example: "Lion"
+                   Year:
+                     type: "integer"
+                     example: "2016"
+                   Language:
+                     type: "string"
+                     example: "English"
+                   Rating:
+                     type: "string"
+                     example: "PG-13"
+        500:
+          description: "Internal Server Error"
+    post:
+      tags:
+      - "Films"
+      summary: "Creates a new film."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmTitle"
+        in: "path"
+        description: "Created the film title."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "description"
+        in: "path"
+        description: "Created the description."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "category"
+        in: "path"
+        description: "Created the category."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "releaseYear"
+        in: "path"
+        description: "Created the release year."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "language"
+        in: "path"
+        description: "Created the language."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "rentalDuration"
+        in: "path"
+        description: "Created the rental duration."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "rentalRate"
+        in: "path"
+        description: "Created the rental rate."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "duration"
+        in: "path"
+        description: "Created the duration."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "replacementCost"
+        in: "path"
+        description: "Created the replacement cost."
+        required: true
+        "schema": {
+        "type": "number",
+        "format": "float"
+        }
+      - name: "rating"
+        in: "path"
+        description: "Created the rating."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "specialFeatures"
+        in: "path"
+        description: "Created the special features."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The film has been successfully created."
+        500:
+          description: "Internal Server Error"
+    delete:
+      tags:
+      - "Films"
+      summary: "Delete films."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        200:
+         description: "The films have been successfully deleted."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/films/{filmId}:
+    delete:
+      tags:
+      - "Films"
+      summary: "Delete a film."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        200:
+          description: "The film has been successfully deleted."
+        500:
+          description: "Internal Server Error"
+    get:
+      tags:
+      - "Films"
+      summary: "Gets the film with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Film Title:
+                     type: "string"
+                     example: "Lion"
+                   Year:
+                     type: "integer"
+                     example: "2016"
+                   Language:
+                     type: "string"
+                     example: "English"
+                   Rating:
+                     type: "string"
+                     example: "PG-13"
+        500:
+          description: "Internal Server Error"
+    put:
+      tags:
+      - "Films"
+      summary: "Updates the details of a selected film."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmTitle"
+        in: "path"
+        description: "Updated the film title."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "description"
+        in: "path"
+        description: "Updated the description."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "category"
+        in: "path"
+        description: "Updated the category."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "releaseYear"
+        in: "path"
+        description: "Updated the release year."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "language"
+        in: "path"
+        description: "Updated the language."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "rentalDuration"
+        in: "path"
+        description: "Updated the rental duration."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "rentalRate"
+        in: "path"
+        description: "Updated the rental rate."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "duration"
+        in: "path"
+        description: "Updated the duration."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "replacementCost"
+        in: "path"
+        description: "Updated the replacement cost."
+        required: true
+        "schema": {
+        "type": "number",
+        "format": "float"
+        }
+      - name: "rating"
+        in: "path"
+        description: "Updated the rating."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "specialFeatures"
+        in: "path"
+        description: "Updated the special features."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The film has been successfully updated."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/films/{filmId}/actors:
+    get:
+      tags:
+      - "Films"
+      summary: "Gets all the actors of a film with ID from store with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Actor:
+                     type: "string"
+                     example: "Leonardo DiCaprio"
+                   Film Title:
+                     type: "string"
+                     example: "Inception"
+                   Year:
+                     type: "integer"
+                     example: "2011"
+                   Language:
+                     type: "string"
+                     example: "English"
+                   Rating:
+                     type: "string"
+                     example: "PG-13"
+        500:
+          description: "Internal Server Error"
+    post:
+      tags:
+      - "Films"
+      summary: "Creates a new actor."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "actorFirstName"
+        in: "path"
+        description: "Created the actor first name."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "actorLastName"
+        in: "path"
+        description: "Created the actor last name."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The actor has been successfully created."
+        500:
+          description: "Internal Server Error"
+    delete:
+      tags:
+      - "Films"
+      summary: "Deletes actors from a film with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "actorId"
+        in: "path"
+        description: "ID of actor to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        200:
+          description: "The actors have been successfully deleted."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}/films/{filmId}/actors/{actorId}:
+    put:
+      tags:
+      - "Films"
+      summary: "Updates the details of a selected actor from film with ID."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "filmId"
+        in: "path"
+        description: "ID of film to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "actorId"
+        in: "path"
+        description: "Updated the actor id."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "actorFirstName"
+        in: "path"
+        description: "Updated the actor first name."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "actorLastName"
+        in: "path"
+        description: "Updated the actor last name."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The actor has been successfully edited."
+        500:
+          description: "Internal Server Error"
+  /stores/{storeId}:
+    get:
+      tags:
+      - "Store"
+      summary: "Gets the details of the store with ID from stores."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return."
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      responses:
+        '200':    
+          description: Successful Operation
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                 properties:
+                   Manager:
+                     type: "string"
+                     example: "Alex Badescu"
+                   Address:
+                     type: "string"
+                     example: "Bucharest"
+                   Distrinct:
+                     type: "integer"
+                     example: "2"
+                   City:
+                     type: "string"
+                     example: "Bucharest"
+                   Postal Code:
+                     type: "string"
+                     example: "7836281"
+                   Phone:
+                     type: "string"
+                     example: "0921236281"
+                   Location:
+                     type: "string"
+                     example: "Street nr 34. Bucharest"
+        500:
+          description: "Internal Server Error"
+    put:
+      tags:
+      - "Store"
+      summary: "Updates the details of the store."
+      parameters:
+      - name: "storeId"
+        in: "path"
+        description: "ID of store to return"
+        required: true
+        "schema": {
+        "type": "integer",
+        "format": "int64"
+        }
+      - name: "address"
+        in: "path"
+        description: "Updated the first address."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "address2"
+        in: "path"
+        description: "Updated the second address."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "distrinct"
+        in: "path"
+        description: "Updated the distrinct."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "country"
+        in: "path"
+        description: "Updated the country."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "city"
+        in: "path"
+        description: "Updated the city."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "postalCode"
+        in: "path"
+        description: "Updated the postal code."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "phone"
+        in: "path"
+        description: "Updated the phone."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      - name: "location"
+        in: "path"
+        description: "Updated the location."
+        required: true
+        "schema": {
+        "type": "string",
+        "format": "string"
+        }
+      responses:
+        200:
+          description: "The store has been successfully updated."
+        500:
+          description: "Internal Server Error"
+# Added by API Auto Mocking Plugin
+servers:
+  - description: SwaggerHub API Auto Mocking
+    url: https://virtserver.swaggerhub.com/alexbadescu/DVDRentals/1.0.0
