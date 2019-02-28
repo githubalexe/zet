@@ -1,2 +1,0 @@
-https://www.youtube.com/watch?v=DnS4vYkyp7E
-https://www.c-sharpcorner.com/article/how-to-connect-mysql-with-asp-net-core/
