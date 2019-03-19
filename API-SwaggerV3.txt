@@ -1,5 +1,9 @@
 openapi: 3.0.0
 info:
+
+
+https://stackoverflow.com/questions/32326074/bootstrap-typeerror-modal-is-not-a-function
+
   description: ""
   version: "1.0.0"
   title: "DVD Rentals"
