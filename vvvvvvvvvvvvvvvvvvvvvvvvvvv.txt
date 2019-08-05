@@ -1,0 +1,18 @@
+        const textField = [].map.call(document.querySelectorAll('.mdc-text-field'), function(el) {
+            mdc.textField.MDCTextField.attachTo(el);
+        });
+        const select = [].map.call(document.querySelectorAll('.mdc-select'), function(el) {
+            mdc.select.MDCSelect.attachTo(el);
+        });
+        const ripple = [].map.call(document.querySelectorAll(".mdc-line-ripple"), function(el) {
+            mdc.ripple.MDCRipple.attachTo(el);
+        });
+        const ripple2 = [].map.call(document.querySelectorAll(".mdc-button"), function(el) {
+            mdc.ripple.MDCRipple.attachTo(el);
+        });
+        const floating = [].map.call(document.querySelectorAll(".mdc-floating-label"), function(el) {
+            mdc.floatingLabel.MDCFloatingLabel.attachTo(el);
+        });
+        const icon = [].map.call(document.querySelectorAll(".mdc-text-field-icon"), function(el) {
+            mdc.textFieldIcon.MDCTextFieldIcon.attachTo(el);
+        });
