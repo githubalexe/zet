@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Generator</title>
+
+    <link rel="stylesheet" href="./site.css" />
+    <link rel="stylesheet" href="node_modules/codeMirror/lib/codemirror.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.css" />
+
+    <!-- date time -->
+    <link rel="stylesheet" href="node_modules/bootstrap-datetime-picker/css/bootstrap-datetimepicker.min.css" />
+    <link rel="stylesheet" href="node_modules/bootstrap-datetime-picker/css/bootstrap-datetimepicker.css" />
+    <link rel="stylesheet" href="./node_modules/kendo-ui/styles/kendo.bootstrap-v4.min.css" />
+
+    <link href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="./form.css" />
+    <script src="./node_modules/requirejs/require.js"></script>
+    <script src="./init.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <button class="button btn btn-success" id="generateForm" type="button">Generate</button>
+        <textarea class="textarea" id="formJsonSchema" rows="15" cols="40"></textarea>
+        <textarea class="textarea" id="inputsJsonSchema" rows="15" cols="40"></textarea>
+        <textarea class="textarea" id="validationsJsonSchema" rows="15" cols="40"></textarea>
+    </div>
+    <div id="formsContainer"></div>
+
+    <script id="labelTemplate" type="text/html">
+        <label class="label-text" data-bind="text: label"></label>
+    </script>
+
+    <script id="buttonTemplate" type="text/html">
+        <div class="mdc-form-field">
+            <div data-bind="attr:{id: containerId}">
+                <div data-bind="attr:{id: inputId}">
+                    <i class="material-icons mdc-text-field__icon pointer" tabindex="0" role="button">delete</i>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script id="textboxTemplate" type="text/html">
+        <div data-bind="attr:{id: containerId}" class="mdc-form-field">
+            <div class="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon">
+                <input data-bind="attr:{id: inputId, type: type}" step="0.01" class="mdc-text-field__input">
+                <div class="mdc-notched-outline">
+                    <div class="mdc-notched-outline__leading"></div>
+                    <div class="mdc-notched-outline__notch">
+                        <label data-bind="text: label, attr:{for: inputId}" class="mdc-floating-label"></label>
+                    </div>
+                    <div class="mdc-notched-outline__trailing"></div>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script id="dropDownListTemplate" type="text/html">
+        <div data-bind="attr:{id: containerId}" class="mdc-select mdc-select--outlined">
+            <input type="hidden" name="enhanced-select">
+            <i class="mdc-select__dropdown-icon"></i>
+            <div data-bind="attr:{id: inputIdd}" class="mdc-select__selected-text" role="button" aria-haspopup="listbox" aria-labelledby="demo-label demo-selected-text"></div>
+            <div class="mdc-select__menu mdc-menu mdc-menu-surface" role="listbox">
+                <ul class="mdc-list" data-bind="foreach: dropdownList, attr:{id: inputId}">
+                    <li class="mdc-list-item" data-value="false" role="option" data-bind="text: text, attr:{value: value}">
+                        <li>
+                </ul>
+            </div>
+            <div class="mdc-notched-outline">
+                <div class="mdc-notched-outline__leading"></div>
+                <div class="mdc-notched-outline__notch">
+                    <label data-bind="text: label, attr:{'for': inputId}" class="mdc-floating-label"></label>
+                </div>
+                <div class="mdc-notched-outline__trailing"></div>
+            </div>
+        </div>
+    </script>
+
+    <script id="checkBoxTemplate" type="text/html">
+        <div class="mdc-form-field">
+            <div data-bind="foreach: items, attr:{id: inputId}, multiselect: multiselect" class="mdc-checkbox">
+                <input data-bind="attr:{name: name, value:value}, checked: $parent.checkedItems" type="checkbox" class="mdc-checkbox__native-control" />
+                <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark" viewBox="0 0 24 24">
+                        <path class="mdc-checkbox__checkmark-path" fill="none" d="M1.73,12.91 8.1,19.28 22.79,4.59" />
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                </div>
+            </div>
+            <label data-bind="text: label, attr:{for: inputId}"></label>
+        </div>
+    </script>
+
+    <script id="formTemplate" type="text/html">
+        <div class="main-container" data-bind="attr:{id: containerId}">
+            <div class="header-container">
+                <label class="title" data-bind="text: titleForm"></label>
+            </div>
+            <div class=form-content>
+                <div data-bind="attr:{id: inputsContainerId}">
+                </div>
+                <div class="button-wrapper text-right">
+                    <button type="button" class="btn btn-link text-right" data-bind="text: addButton, attr:{id: addButtonId}"></button>
+                </div>
+            </div>
+        </div>
+    </script>
+
+    <script>
+        require(["index"], function(index) {
+
+
+        });
+    </script>
+
+</body>
+
+</html>
