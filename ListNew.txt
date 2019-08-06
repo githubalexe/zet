@@ -1,0 +1,28 @@
+        <div class="two-buttons">
+            <td class="w-70">
+                <button class="demo-button mdc-button mdc-button--unelevated mdc-ripple-upgraded">Discount Sought</button>
+            </td>
+            <td class="w-30">
+                <label>0%</label>
+            </td>
+        </div>
+
+.mdc-button--raised:not(:disabled),
+.mdc-button--unelevated:not(:disabled) {
+    background-color: #007DBA;
+    border-radius: 4px 0 0 4px;
+}
+
+
+.two-buttons {
+    border: 1px solid #A4A4A4;
+    border-radius: 5px;
+}
+
+.w-70 {
+    width: 80%;
+}
+
+.w-30 {
+    width: 20%;
+}
