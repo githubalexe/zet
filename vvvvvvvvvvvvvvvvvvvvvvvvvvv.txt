@@ -16,3 +16,5 @@
         const icon = [].map.call(document.querySelectorAll(".mdc-text-field-icon"), function(el) {
             mdc.textFieldIcon.MDCTextFieldIcon.attachTo(el);
         });
+        
+        https://stackblitz.com/angular/rmxgnbledvm
